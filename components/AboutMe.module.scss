@@ -1,0 +1,93 @@
+@import "../styles/settings";
+
+.about {
+	@include flexContainer(column, center, center);
+	@include push--auto;
+	max-width: $max-width;
+	text-align: center;
+	h2 {
+		font-size: 1.5rem;
+		margin: 2rem 0;
+		font-weight: 400;
+		opacity: 0.85;
+	}
+	.about__profilePic {
+		padding-bottom: 80px;
+		margin: 20px auto;
+	}
+	p {
+		margin: 2rem auto;
+		font-family: "Zilla Slab", serif;
+		line-height: 1.4;
+	}
+}
+.threeValues {
+	margin-top: 40px;
+	max-width: $max-width;
+	min-width: 700px;
+	background: $color-bg;
+	border-radius: $global-border-radius;
+	.threeValues__grid {
+		max-width: $max-width;
+		display: grid;
+		grid-template-columns: 5% 1fr 1fr 1fr 5%;
+		grid-template-rows: 152px 25px;
+		justify-items: center;
+		align-items: center;
+		.threeValues__gridVal1 {
+			grid-row: 1 / span 1;
+			grid-column: 2 / span 1;
+		}
+		.threeValues__gridVal2 {
+			grid-row: 1 / span 1;
+			grid-column: 3 / span 1;
+		}
+		.threeValues__gridVal3 {
+			grid-row: 1 / span 1;
+			grid-column: 4 / span 1;
+		}
+		.threeValues__gridDesc1 {
+			grid-row: 2 / span 1;
+			grid-column: 2 / span 1;
+			padding-bottom: 30px;
+		}
+		.threeValues__gridDesc2 {
+			grid-row: 2 / span 1;
+			grid-column: 3 / span 1;
+			padding-bottom: 30px;
+		}
+		.threeValues__gridDesc3 {
+			grid-row: 2 / span 1;
+			grid-column: 4 / span 1;
+			padding-bottom: 30px;
+		}
+		svg {
+			opacity: 0.95;
+		}
+	}
+}
+
+//Media==============================
+@media only screen and (max-width: 750px) {
+	.aboutMyself {
+		padding: 0 20px;
+	}
+	.threeValues {
+		@include flexContainer(column, center, center);
+		min-width: unset;
+		h2 {
+			padding-bottom: 0;
+		}
+		.threeValues__grid {
+			width: 80%;
+			.threeValues__gridVal1,
+			.threeValues__gridVal2,
+			.threeValues__gridVal3 {
+				img {
+					padding: 10px;
+					width: 99%;
+				}
+			}
+		}
+	}
+}
