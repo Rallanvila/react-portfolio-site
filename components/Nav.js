@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/Image";
 import logo from "../public/img/LogoWhite.png";
 import styles from "./Nav.module.scss";
 

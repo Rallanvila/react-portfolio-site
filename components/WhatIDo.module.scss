@@ -1,0 +1,46 @@
+@import "../styles/settings";
+
+.section {
+	background: $color-bg;
+	margin-top: 50px;
+	text-align: center;
+
+	h2 {
+		margin-bottom: 30px;
+		padding-top: 40px;
+	}
+	.container {
+		max-width: $max-width-wide;
+		@include push--auto;
+		@include flexContainer(row, space-around, center);
+		.sections_container {
+			max-width: 300px;
+			h3 {
+				padding: 15px 0 10px;
+			}
+			p {
+				padding-bottom: 40px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 750px) {
+	.section {
+		@include flexContainer(column, center, center);
+		h2 {
+			margin-bottom: 0;
+			padding-bottom: 20px;
+		}
+		.container {
+			@include flexContainer(column, center, center);
+			.sections_container {
+				h3 {
+					padding: 10px;
+				}
+				p {
+					padding-bottom: 30px;
+				}
+			}
+		}
+	}
+}

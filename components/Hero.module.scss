@@ -42,3 +42,32 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 750px) {
+	// nav {
+	// 	height: 50px;
+	// 	.logo {
+	// 		img {
+	// 			width: 80%;
+	// 		}
+	// 		p {
+	// 			display: none;
+	// 			font-size: 0.7rem;
+	// 		}
+	// 	}
+	// 	.links a {
+	// 		padding: 0 0 0 10px;
+	// 	}
+	// }
+	.header {
+		padding: 0 1rem;
+		.main-banner__headline {
+			@include flexContainer(column, center, center);
+			text-align: center;
+			.main-banner__headline--contact-btn {
+				position: unset;
+				margin-top: 40px;
+			}
+		}
+	}
+}
