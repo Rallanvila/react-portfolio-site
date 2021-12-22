@@ -1,0 +1,92 @@
+@import "../styles//settings";
+
+.project__modalContainer {
+	@include flexContainer(column, center, center);
+	@include push--auto;
+	text-align: center;
+	background-color: $color-bg;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transition: all 1s ease-in-out;
+	transform: translate(-50%, -50%);
+	z-index: 50;
+	margin: auto;
+	width: 50vw;
+	min-width: 350px;
+	max-height: 90vh;
+	overflow: auto;
+	border-radius: 10px;
+
+	&.active {
+		transition: all 1s ease-in-out;
+		width: 50vw;
+		height: 80vh;
+	}
+	h2 {
+		padding: 1rem;
+	}
+	h3 {
+		padding-bottom: 10px;
+	}
+	li {
+		margin: 0.4rem auto;
+	}
+	svg {
+		margin-right: 5px;
+	}
+	.closeBtn {
+		position: absolute;
+		font-size: 30px;
+		top: 10px;
+		right: 20px;
+		cursor: pointer;
+	}
+	.project__modalContainerContent {
+		@include flexContainer(column, center, center);
+		@include button-small;
+		width: 90%;
+		margin: 0 auto 20px;
+		background: $white;
+		text-align: justify;
+		position: relative;
+		.imageContainer {
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+			img {
+				object-fit: cover;
+			}
+		}
+		p {
+			padding: 30px;
+			font-family: $font-family-poppins;
+		}
+		li {
+			text-align: center;
+			padding-bottom: 5px;
+		}
+		.project__modalContainerLinks {
+			i,
+			a {
+				font-size: 1rem;
+				color: $black;
+			}
+			i {
+				padding-right: 10px;
+			}
+			button {
+				margin: 20px 10px;
+			}
+		}
+	}
+}
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+.show {
+	display: flex;
+}

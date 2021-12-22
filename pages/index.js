@@ -7,6 +7,7 @@ import Nav from "../components/Nav";
 import Resume from "../components/Resume";
 import WhatIDo from "../components/WhatIDo";
 import Projects from "../components/Projects";
+import Overlay from "../components/Overlay";
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<Experience />
 			<Resume />
 			<Projects />
+			{/* <Overlay /> */}
 		</>
 	);
 }

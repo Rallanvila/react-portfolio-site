@@ -14,7 +14,7 @@
 	h2 {
 		padding-bottom: 10px;
 	}
-	#my-projects-filter {
+	.myProjectFilter {
 		@include flexContainer(row, space-evenly, center);
 		@include push--auto;
 		@include button;
