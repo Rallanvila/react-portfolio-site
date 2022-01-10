@@ -2,6 +2,7 @@ import Image from "next/Image";
 import { AiFillHtml5 } from "react-icons/ai";
 import styles from "./Experience.module.scss";
 import nextjsLogo from "../public/img/Nextjs-logo.svg";
+import nsiLogo from "../public/img/NSI_logo.png";
 import {
 	FaCss3Alt,
 	FaFigma,
@@ -25,17 +26,23 @@ export default function Experience() {
 		<section id="experience" className={styles.experience}>
 			<div className={styles.experience__summary}>
 				<div className={styles.experience__summaryWorked}>
-					<h3 className={styles.experience__summaryWorked}>
-						WHERE I'VE WORKED
-					</h3>
-					{/* <Image
-						src="https://mybayside.church/wp-content/themes/bayside/images/logo-412x103.png"
-						alt="bayside community church"
-						width="300"
-						height="76"
-					/> */}
+					<h2 className={styles.experience__summaryWorked}>MY EXPERIENCE</h2>
 				</div>
-				<h3 className={styles.experience__summaryExperience}>MY EXPERIENCE</h3>
+				{/* <h3 className={styles.experience__summaryExperience}>MY EXPERIENCE</h3> */}
+				<Image src={nsiLogo} height="54px" width="250px" />
+				{/* <h3>Naval Systems Inc</h3> */}
+				<p>
+					Naval Systems supports the Department of Defense. Here I work on
+					secret level clearance projects that help with the well being of our
+					on going national security.
+				</p>
+				<Image
+					src="https://mybayside.church/wp-content/themes/bayside/images/logo-412x103.png"
+					alt="bayside community church"
+					width="250"
+					height="62"
+				/>
+				{/* <h3>MyBayside.church</h3> */}
 				<p>
 					I'm a web developer for{" "}
 					<a href="https://mybayside.church">MyBayside.church</a>. I've been

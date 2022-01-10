@@ -22,11 +22,18 @@
 		}
 		img {
 			width: 80%;
-			margin: 0 auto;
-			padding-bottom: 40px;
+			margin: 0 auto 1rem;
+			// padding-bottom: 40px;
 		}
 		.experience__summaryExperience {
 			padding-bottom: 10px;
+		}
+		h3 {
+			margin: 0.5rem 0;
+			// padding-bottom: 0.5rem;
+		}
+		p {
+			margin: 1rem 0 2rem;
 		}
 	}
 	.experience__skills {
@@ -40,7 +47,7 @@
 		}
 		svg {
 			font-size: 100px;
-			padding: 0 20px;
+			padding: 10px 0;
 			transition: color 0.4s ease-in-out;
 			cursor: pointer;
 			.next {
