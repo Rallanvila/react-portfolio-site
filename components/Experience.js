@@ -2,6 +2,7 @@ import Image from "next/Image";
 import { AiFillHtml5 } from "react-icons/ai";
 import styles from "./Experience.module.scss";
 import nextjsLogo from "../public/img/Nextjs-logo.svg";
+import bayside from "../public/img/bayside.png";
 import nsiLogo from "../public/img/NSI_logo.png";
 import {
 	FaCss3Alt,
@@ -37,7 +38,7 @@ export default function Experience() {
 					on going national security.
 				</p>
 				<Image
-					src="https://mybayside.church/wp-content/themes/bayside/images/logo-412x103.png"
+					src={bayside}
 					alt="bayside community church"
 					width="250"
 					height="62"

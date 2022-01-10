@@ -9,7 +9,6 @@ export default function Nav() {
 				<Image src={logo} alt="r.allanvila logo" />
 				<p>Allan Vila</p>
 			</div>
-			{/* <div className="links"> */}
 			<div className={styles.links}>
 				<a href="#about">About</a>
 				<a href="#experience">Experience</a>
