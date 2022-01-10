@@ -5,17 +5,25 @@
 	// @include flexContainer(row, center, center);
 	@include push--auto;
 	display: flex;
-	justify-content: flex-start;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	max-width: $max-width;
 	margin: 100px auto;
+	h2 {
+		margin-bottom: 2rem;
+	}
 	.experience__summary {
-		@include flexContainer(column, flex-start, flex-start);
-		width: 50%;
-		padding-right: 100px;
+		@include flexContainer(flex, space-evenly, flex-start);
+		width: 100%;
 		.experience__summaryWorked {
 			padding-bottom: 20px;
 			text-align: center !important;
 			justify-self: center !important;
+		}
+		.experience__company {
+			width: 400px;
+			margin: 3rem auto 1rem;
 		}
 		a {
 			font-weight: 600;
@@ -40,13 +48,13 @@
 		display: flex;
 		justify-content: space-between;
 		align-self: space-between;
-		width: 50%;
+		width: 100%;
 		.experience__skillsGridContainer {
-			@include flexContainer(row, space-between, space-between);
+			@include flexContainer(row, flex-start, flex-start);
 			flex-wrap: wrap;
 		}
 		svg {
-			font-size: 100px;
+			font-size: 80px;
 			padding: 10px 0;
 			transition: color 0.4s ease-in-out;
 			cursor: pointer;

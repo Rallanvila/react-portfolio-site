@@ -25,34 +25,44 @@ import {
 export default function Experience() {
 	return (
 		<section id="experience" className={styles.experience}>
+			<h2 className={styles.experience__summaryWorked}>MY EXPERIENCE</h2>
 			<div className={styles.experience__summary}>
-				<div className={styles.experience__summaryWorked}>
-					<h2 className={styles.experience__summaryWorked}>MY EXPERIENCE</h2>
+				<div className={styles.experience__summaryWorked}></div>
+
+				<div className={styles.experience__company}>
+					<Image src={nsiLogo} height="62px" width="250px" />
+					{/* <h3>Naval Systems Inc</h3> */}
+					<p>
+						Naval Systems supports the Department of Defense. Here I work on
+						secret level clearance projects that help with the well being of our
+						on going national security. My work is currently active with support
+						NavAir, US Air Force , Missile Defense Agency, DASA DE&C and more.
+					</p>
 				</div>
-				{/* <h3 className={styles.experience__summaryExperience}>MY EXPERIENCE</h3> */}
-				<Image src={nsiLogo} height="54px" width="250px" />
-				{/* <h3>Naval Systems Inc</h3> */}
-				<p>
-					Naval Systems supports the Department of Defense. Here I work on
-					secret level clearance projects that help with the well being of our
-					on going national security.
-				</p>
-				<Image
-					src={bayside}
-					alt="bayside community church"
-					width="250"
-					height="62"
-				/>
-				{/* <h3>MyBayside.church</h3> */}
-				<p>
-					I'm a web developer for{" "}
-					<a href="https://mybayside.church">MyBayside.church</a>. I've been
-					supporting the web development since. I love the fast-paced industry
-					and new technologies developed to improve our quality of life. I love
-					finding a deep understanding of core languages to grow my portfolio,
-					investing in my family's future.
-				</p>
+				<div className={styles.experience__company}>
+					<Image
+						src={bayside}
+						alt="bayside community church"
+						width="250"
+						height="62"
+					/>
+					{/* <h3>MyBayside.church</h3> */}
+					<p>
+						I'm a web developer for{" "}
+						<a href="https://mybayside.church">MyBayside.church</a>. Bayside is
+						a community church located in Bradenton, FL with a major creative &
+						production team. We offer live services with realtime chat. As
+						different events and programs come up, I've assisted in maintaining
+						the site.
+						{/* I've been
+						supporting the web development since. I love the fast-paced industry
+						and new technologies developed to improve our quality of life. I
+						love finding a deep understanding of core languages to grow my
+    portfolio, investing in my family's future. */}
+					</p>
+				</div>
 			</div>
+			<h2>TECHNOLOGIES I WORK WITH: </h2>
 			<div className={styles.experience__skills}>
 				<div className={styles.experience__skillsGridContainer}>
 					<Image
@@ -67,19 +77,19 @@ export default function Experience() {
 					<FaNodeJs className={styles.node} />
 					<FaHtml5 className={styles.html5} />
 					<FaCss3Alt className={styles.css3} />
-					<FaSass className={styles.sass} style={{ fontSize: "110px" }} />
+					<FaSass className={styles.sass} style={{ fontSize: "78px" }} />
 					<SiStyledcomponents
 						className={styles.styled}
-						style={{ fontSize: "110px" }}
+						style={{ fontSize: "110px", padding: "0 10px" }}
 					/>
 					<FaWordpress className={styles.wordpress} />
 					<FaGithub className={styles.github} />
 					<FaGulp className={styles.gulp} />
 					<FaFigma className={styles.figma} />
-					<SiPostman className={styles.postman} style={{ fontSize: "110px" }} />
+					<SiPostman className={styles.postman} style={{ fontSize: "80px" }} />
 					<SiMaterialui
 						className={styles.material}
-						style={{ fontSize: "110px" }}
+						style={{ fontSize: "90px" }}
 					/>
 				</div>
 			</div>
