@@ -6,16 +6,10 @@ import learning from "../public/img/Learning.svg";
 
 export default function WhatIDo() {
 	return (
-		<section className={styles.section}>
+		<section className={styles.section} data-aos="fade-up">
 			<h2>WHAT I DO</h2>
 			<div className={styles.container}>
 				<div className={styles.sections_container}>
-					{/* <Image
-						className={styles.img}
-						src="/public/img/Design.png"
-						alt="Paint Board"
-						layout="fill"
-					/> */}
 					<Image src={design} />
 					<h3>Design</h3>
 					<br />

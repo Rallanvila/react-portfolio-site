@@ -4,11 +4,14 @@ import Image from "next/Image";
 import { BsKeyboard } from "react-icons/bs";
 import { MdFamilyRestroom } from "react-icons/md";
 import { SiMaterialui } from "react-icons/si";
+import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutMe = () => {
 	return (
 		<section id="about" className={styles.about}>
-			<div className={styles.aboutMyself}>
+			<div data-aos="fade-in">
 				<h2>A LITTLE ABOUT MYSELF</h2>
 				<Image
 					className={styles.about__profileMic}
@@ -32,24 +35,16 @@ const AboutMe = () => {
 				</p>
 			</div>
 
-			<div className={styles.threeValues}>
+			<div className={styles.threeValues} data-aos="fade-in">
 				<h2>ME IN A NUTSHELL..</h2>
 				<div className={styles.threeValues__grid}>
 					<div className={styles.threeValues__gridVal1}>
-						{/* <Image src="../public/img/Keyboard.png" alt="keyboard and mouse" /> */}
 						<BsKeyboard size="6rem" />
-						{/* <Image src="../public/img/Keyboard.png" alt="keyboard and mouse" /> */}
 					</div>
 					<div className={styles.threeValues__gridVal2}>
-						{/* <Image src="../public/img/Family.png" alt="family stick figures" /> */}
 						<MdFamilyRestroom size="6rem" />
 					</div>
 					<div className={styles.threeValues__gridVal3}>
-						{/* <Image
-							id="ruler"
-							src="../public/img/Ruler.png"
-							alt="Pen and ruler"
-						/> */}
 						<SiMaterialui size="6rem" />
 					</div>
 					<div className={styles.threeValues__gridDesc1}>

@@ -12,7 +12,7 @@
 	.container {
 		max-width: $max-width-wide;
 		@include push--auto;
-		@include flexContainer(row, space-around, center);
+		@include flexContainer(row, space-around, flex-end);
 		.sections_container {
 			max-width: 300px;
 			h3 {

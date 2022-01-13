@@ -18,7 +18,7 @@ export default function ProjectContainer({
 
 	function toggleModal() {
 		!modal ? setModal(true) : setModal(false);
-		console.log("modal: ", modal);
+		// console.log("modal: ", modal);
 	}
 
 	return (

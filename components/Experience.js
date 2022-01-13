@@ -1,5 +1,4 @@
 import Image from "next/Image";
-import { AiFillHtml5 } from "react-icons/ai";
 import styles from "./Experience.module.scss";
 import nextjsLogo from "../public/img/Nextjs-logo.svg";
 import bayside from "../public/img/bayside.png";
@@ -21,15 +20,17 @@ import {
 	SiPostman,
 	SiStyledcomponents,
 } from "react-icons/si";
-
+f;
 export default function Experience() {
 	return (
 		<section id="experience" className={styles.experience}>
-			<h2 className={styles.experience__summaryWorked}>MY EXPERIENCE</h2>
+			<h2 className={styles.experience__summaryWorked} data-aos="fade-in">
+				MY EXPERIENCE
+			</h2>
 			<div className={styles.experience__summary}>
 				<div className={styles.experience__summaryWorked}></div>
 
-				<div className={styles.experience__company}>
+				<div className={styles.experience__company} data-aos="fade-in">
 					<Image src={nsiLogo} height="62px" width="250px" />
 					{/* <h3>Naval Systems Inc</h3> */}
 					<p>
@@ -39,7 +40,11 @@ export default function Experience() {
 						NavAir, US Air Force , Missile Defense Agency, DASA DE&C and more.
 					</p>
 				</div>
-				<div className={styles.experience__company}>
+				<div
+					className={styles.experience__company}
+					data-aos="fade-in"
+					data-aos-delay="500"
+				>
 					<Image
 						src={bayside}
 						alt="bayside community church"
@@ -62,8 +67,12 @@ export default function Experience() {
 					</p>
 				</div>
 			</div>
-			<h2>TECHNOLOGIES I WORK WITH: </h2>
-			<div className={styles.experience__skills}>
+			<h2 data-aos="fade-in">TECHNOLOGIES I WORK WITH: </h2>
+			<div
+				className={styles.experience__skills}
+				data-aos="fade-in"
+				data-aos-delay="200"
+			>
 				<div className={styles.experience__skillsGridContainer}>
 					<Image
 						// className={styles.fab}

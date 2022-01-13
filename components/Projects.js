@@ -5,15 +5,15 @@ import { useState } from "react";
 
 const Projects = () => {
 	const [displayedProjects, setDisplayedProjects] = useState(data);
-	console.log("state: ", displayedProjects);
+	// console.log("state: ", displayedProjects);
 
-	displayedProjects.map((project) => console.log("projects: ", project));
+	// displayedProjects.map((project) => console.log("projects: ", project));
 
 	return (
 		<section id="my-projects" className={styles.myProjects}>
-			<h2>LOOK AT SOME OF MY WORK</h2>
-			<p>(Adding More Monthly)</p>
-			<div className={styles.myProjectFilter}>
+			<h2 data-aos="fade-in">LOOK AT SOME OF MY WORK</h2>
+			<p data-aos="fade-in">(Adding More Monthly)</p>
+			<div className={styles.myProjectFilter} data-aos="fade-in">
 				<button className={styles.filterBtn} onClick={clearFilter}>
 					Show All
 				</button>
@@ -42,7 +42,11 @@ const Projects = () => {
 					React
 				</button>
 			</div>
-			<div className={styles.myProjects__projectContainer}>
+			<div
+				className={styles.myProjects__projectContainer}
+				data-aos="fade-in"
+				data-aos-anchor-placement="top-center"
+			>
 				{displayedProjects.map((project) => (
 					<ProjectContainer key={project.title} project={project} />
 					// <ProjectContainer
