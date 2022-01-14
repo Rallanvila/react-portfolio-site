@@ -9,6 +9,7 @@ import HeadTag from "../components/HeadTag";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import ScrollUpButton from "react-scroll-up-button";
 
 export default function Home() {
 	useEffect(() => {
@@ -29,7 +30,7 @@ export default function Home() {
 			<Experience data-aos="fade-up" />
 			<Resume data-aos="fade-up" />
 			<Projects data-aos="fade-up" />
-			{/* <Overlay /> */}
+			<ScrollUpButton />
 		</>
 	);
 }
