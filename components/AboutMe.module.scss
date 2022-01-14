@@ -3,6 +3,7 @@
 .about {
 	@include flexContainer(column, center, center);
 	@include push--auto;
+	padding: 0 1rem;
 	max-width: $max-width;
 	text-align: center;
 	h2 {
@@ -83,7 +84,7 @@
 			.threeValues__gridVal1,
 			.threeValues__gridVal2,
 			.threeValues__gridVal3 {
-				img {
+				svg {
 					padding: 10px;
 					width: 99%;
 				}
