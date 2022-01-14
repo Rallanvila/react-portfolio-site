@@ -20,7 +20,7 @@ import {
 	SiPostman,
 	SiStyledcomponents,
 } from "react-icons/si";
-f;
+
 export default function Experience() {
 	return (
 		<section id="experience" className={styles.experience}>
@@ -43,7 +43,7 @@ export default function Experience() {
 				<div
 					className={styles.experience__company}
 					data-aos="fade-in"
-					data-aos-delay="500"
+					data-aos-delay="300"
 				>
 					<Image
 						src={bayside}
@@ -51,7 +51,6 @@ export default function Experience() {
 						width="250"
 						height="62"
 					/>
-					{/* <h3>MyBayside.church</h3> */}
 					<p>
 						I'm a web developer for{" "}
 						<a href="https://mybayside.church">MyBayside.church</a>. Bayside is

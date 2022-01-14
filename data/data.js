@@ -37,7 +37,7 @@ const data = [
 		title: "HBO Max Newsletter HTML Email",
 		image: "/../public/img/HBOMax Newsletter.png",
 		type: "email",
-		link: "https://vila-real-estate.netlify.app/",
+		link: "/hbo-email",
 		github: "https://github.com/Rallanvila/React-Real-Estate",
 		description:
 			"This is a fully customizable HTML Newsletter Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 😎",
@@ -53,7 +53,7 @@ const data = [
 		title: "Dribbble Newsletter HTML Email",
 		image: "/../public/img/Dribble Newsletter.png",
 		type: "email",
-		link: "https://rallanvila.com/project_pages/dribbble.html",
+		link: "/dribbble-email",
 		github: "https://github.com/Rallanvila/Dribble-Email",
 		description:
 			"This is a fully customizable HTML Newsletter Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🤓",
@@ -69,7 +69,7 @@ const data = [
 		title: "Bayside Newsletter HTML Email",
 		image: "/../public/img/Bayside Newsletter.png",
 		type: "email",
-		link: "https://rallanvila.com/project_pages/bayside.html",
+		link: "/bayside-email",
 		github: "https://github.com/Rallanvila/Bayside-Emails",
 		description:
 			"This is a fully customizable HTML Newsletter Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🤓",
@@ -84,7 +84,7 @@ const data = [
 		title: "Target Transactional HTML Email",
 		image: "/../public/img/Target Transactional.png",
 		type: "email",
-		link: "https://rallanvila.com/project_pages/target.html",
+		link: "/target-email",
 		github: "https://github.com/Rallanvila/Target-Email",
 		description:
 			"This is a fully customizable HTML Transactional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
@@ -100,7 +100,7 @@ const data = [
 		title: "ParkMobile Transactional HTML Email",
 		image: "/../public/img/ParkMobile.png",
 		type: "email",
-		link: "./project_pages/parkmobile.html",
+		link: "/parkmobile-email",
 		github: "https://github.com/Rallanvila/ParkMobile",
 		description:
 			"This is a fully customizable HTML Transactional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
@@ -116,7 +116,7 @@ const data = [
 		title: "Verizon Promo HTML Email",
 		image: "/../public/img/verizon.jpeg",
 		type: "email",
-		link: "./project_pages/verizon.html",
+		link: "/verizon-email",
 		github: "https://github.com/Rallanvila/verizon-promo-email",
 		description:
 			"This is a fully customizable HTML Promotional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
@@ -132,7 +132,7 @@ const data = [
 		title: "LOL Promo HTML Email",
 		image: "/../public/img/League of Legends.png",
 		type: "email",
-		link: "./project_pages/league.html",
+		link: "/league-email",
 		github: "https://github.com/Rallanvila/League-of-Legends-Email",
 		description:
 			"This is a fully customizable HTML Promotional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🙌🏼",
@@ -163,7 +163,7 @@ const data = [
 		title: "NSi Landing Page",
 		image: "/../public/img/nsi.png",
 		type: "landing",
-		link: "https://rallanvila.github.io/animated-landing-page/",
+		link: "https://nsi-landingpage.netlify.app/",
 		github: "https://github.com/Rallanvila/NSI-Landing-Page",
 		description:
 			"NSi Landing Page was made due to a request to view a company's current landing page and then give them my vision of how it could be improved.\nI modernized the layout, improved the typography, added and accessibility standards, and added more CTA areas to generate more engagement from the user to see what the user is interested in. These actions are correlated with the companies KPIs and needed growth opportunities.",

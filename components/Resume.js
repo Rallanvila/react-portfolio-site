@@ -11,6 +11,7 @@ const Resume = () => {
 						className={styles.resume__btnLink}
 						href="./downloads/Allan Vila's Resume.pdf"
 						target="_blank"
+						rel="noreferrer"
 					>
 						Snag It Here
 					</a>
