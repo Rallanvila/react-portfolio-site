@@ -1076,9 +1076,10 @@ export default function bayside() {
 																				>
 																					Copyright © 2021 Bayside Community
 																					Church, All rights reserved. Have you
-																					ever said, "I wish Bayside would have
-																					told me about that?" We're keeping you
-																					informed with these e-mails.
+																					ever said, &quot; I wish Bayside would
+																					have told me about that?&quot;
+																					We&apos;re keeping you informed with
+																					these e-mails.
 																				</p>
 																			</th>
 																			<th

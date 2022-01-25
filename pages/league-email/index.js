@@ -9,7 +9,7 @@ export default function index() {
 			<style
 				dangerouslySetInnerHTML={{
 					__html:
-						"@media only screen{html{min-height:100%;background:#f3f3f3}}@media only screen and (max-width:596px){.small-float-center{margin:0 auto!important;float:none!important;text-align:center!important}}@media only screen and (max-width:596px){table.body img{width:auto;height:auto}table.body center{min-width:0!important}table.body .container{width:95%!important}table.body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:16px!important;padding-right:16px!important}table.body .columns .columns{padding-left:0!important;padding-right:0!important}table.body .collapse .columns{padding-left:0!important;padding-right:0!important}th.small-6{display:inline-block!important;width:50%!important}th.small-12{display:inline-block!important;width:100%!important}.columns th.small-12{display:block!important;width:100%!important}table.menu{width:100%!important}table.menu td,table.menu th{width:auto!important;display:inline-block!important}table.menu.vertical td,table.menu.vertical th{display:block!important}table.menu[align=center]{width:auto!important}}",
+						"@media only screen{html{min-height:100%;background:#f3f3f3}}@media only screen and (max-width:596px){.small-float-center{margin:0 auto!important;float:none!important;text-align:center!important}}@media only screen and (max-width:596px){table.body img{width:auto;height:auto}table.body center{min-width:0!important}table.body .container{width:95%!important}table.body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:16px!important;padding-right:16px!important}table.body .columns .columns{padding-left:0!important;padding-right:0!important}table.body .collapse .columns©{padding-left:0!important;padding-right:0!important}th.small-6{display:inline-block!important;width:50%!important}th.small-12{display:inline-block!important;width:100%!important}.columns th.small-12{display:block!important;width:100%!important}table.menu{width:100%!important}table.menu td,table.menu th{width:auto!important;display:inline-block!important}table.menu.vertical td,table.menu.vertical th{display:block!important}table.menu[align=center]{width:auto!important}}",
 				}}
 			/>
 			<span
@@ -1947,11 +1947,11 @@ export default function index() {
 																						textAlign: "center",
 																					}}
 																				>
-																					This email was sent to{" "}
+																					This email was sent to test@test.com
 																					<a
 																						href="mailto:clientemail@gmail.com"
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						style={{
 																							color: "#2199e8",
 																							fontFamily:
@@ -1965,14 +1965,14 @@ export default function index() {
 																					>
 																						clientemail@gmail.com
 																					</a>{" "}
-																					because you've opted in to receive
-																					marketing communications from Riot
-																					Games.To update your preferences,
+																					because you&apos;ve opted in to
+																					receive marketing communications from
+																					Riot Games.To update your preferences,
 																					visit our{" "}
 																					<a
 																						href="http://cloud.em.riotgames.com/AccountSettings?sk=8816037f-85ee-515d-a6ce-d1e666ee2f2e"
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						style={{
 																							color: "#2199e8",
 																							fontFamily:

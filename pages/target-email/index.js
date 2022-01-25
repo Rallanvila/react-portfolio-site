@@ -3301,10 +3301,11 @@ export default function index() {
 																															"none",
 																													}}
 																												>
-																													Men's 8.5" Fiery Swim
-																													Board Trunks -
-																													Goodfellow &amp; Co™
-																													Cayenne Red 42
+																													Men&apos;s 8.5&quot;
+																													Fiery Swim Board
+																													Trunks - Goodfellow
+																													&amp; Co™ Cayenne Red
+																													42
 																												</a>
 																												<p
 																													style={{

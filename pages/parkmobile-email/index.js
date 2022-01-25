@@ -237,7 +237,7 @@ export default function index() {
 																				<a
 																					href="http://us.parkmobile.com/"
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -2032,7 +2032,7 @@ export default function index() {
 																	<a
 																		href="http://parkmobile.us/"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		style={{
 																			color: "#2199e8",
 																			fontFamily: "Helvetica,Arial,sans-serif",
@@ -2224,7 +2224,7 @@ export default function index() {
 																	<a
 																		href="https://facebook.com/parkmobile"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		align="center"
 																		className="float-center"
 																		style={{
@@ -2257,7 +2257,7 @@ export default function index() {
 																	<a
 																		href="https://twitter.com/parkmobile"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		align="center"
 																		className="float-center"
 																		style={{
@@ -2290,7 +2290,7 @@ export default function index() {
 																	<a
 																		href="https://www.linkedin.com/company/parkmobile-usa-inc-"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		align="center"
 																		className="float-center"
 																		style={{
@@ -2323,7 +2323,7 @@ export default function index() {
 																	<a
 																		href="https://instagram.com/parkmobilellc"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		align="center"
 																		className="float-center"
 																		style={{
@@ -2698,7 +2698,7 @@ export default function index() {
 																<a
 																	href="https://parkmobile.us/"
 																	target="_blank"
-																	rel="noopener"
+																	rel="noreferrer"
 																	style={{
 																		color: "#2199e8",
 																		fontFamily: "Helvetica,Arial,sans-serif",
@@ -2917,7 +2917,7 @@ export default function index() {
 																	<a
 																		href="http://us.parkmobile.com/terms-use"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		style={{
 																			color: "#9f9f9f",
 																			fontFamily: "Helvetica,Arial,sans-serif",
@@ -2937,6 +2937,7 @@ export default function index() {
 																	<a
 																		href="https://parkmobile.us/phonixx/ClientPages/Unsubscribe.aspx?eyJFbWFpbCI6InIuYWxsYW52aWxhQGdtYWlsLmNvbSIsIkFjdGl2YXRpb25NZXNzYWdlT25seSI6dHJ1ZSwiTWVzc2FnZVR5cGUiOjIxMn0%3d"
 																		target="_blank"
+																		rel="noreferrer"
 																		style={{
 																			color: "#9f9f9f",
 																			fontFamily: "Helvetica,Arial,sans-serif",
@@ -2955,7 +2956,7 @@ export default function index() {
 																	<a
 																		href="https://parkmobile.us/phonixx/ClientPages/Unsubscribe.aspx?eyJFbWFpbCI6InIuYWxsYW52aWxhQGdtYWlsLmNvbSIsIkFjdGl2YXRpb25NZXNzYWdlT25seSI6ZmFsc2UsIk1lc3NhZ2VUeXBlIjowfQ%3d%3d"
 																		target="_blank"
-																		rel="noopener"
+																		rel="noreferrer"
 																		style={{
 																			color: "#9f9f9f",
 																			fontFamily: "Helvetica,Arial,sans-serif",

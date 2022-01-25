@@ -14,9 +14,9 @@ export default function WhatIDo() {
 					<h3>Design</h3>
 					<br />
 					<p>
-						Design isn't just about the look of the website. It's mainly about
-						the feel that creates the experience. I strive to design
-						pixel-perfect experiences that look and feel amazing for the
+						Design isn&apos;t just about the look of the website. It&apos;s
+						mainly about the feel that creates the experience. I strive to
+						design pixel-perfect experiences that look and feel amazing for the
 						end-user.
 					</p>
 				</div>
@@ -31,7 +31,7 @@ export default function WhatIDo() {
 					<h3>Develop</h3>
 					<br />
 					<p>
-						I love the ability to engineer a product based on the user's
+						I love the ability to engineer a product based on the user&apos;s
 						specific needs. As I grow as a developer, I write clean code that
 						can be shared and leveraged to create amazing new things.
 					</p>
@@ -47,9 +47,9 @@ export default function WhatIDo() {
 					<h3>Learn</h3>
 					<br />
 					<p>
-						I'm a motivated learner that's always self-improving. The industry
-						is constantly changing, it's important to maintain your skills to
-						simplify and quicken the build process for MVP.
+						I&apos;m a motivated learner that&apos;s always self-improving. The
+						industry is constantly changing, it&apos;s important to maintain
+						your skills to simplify and quicken the build process for MVP.
 					</p>
 				</div>
 			</div>

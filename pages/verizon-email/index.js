@@ -3548,13 +3548,13 @@ export default function index() {
 																				}}
 																			>
 																				New line of service &amp; device payment
-																				purchase req'd. Offer valid on eligible
-																				smartphones with a full retail price of
-																				$300 or higher; 0% APR. Cannot be
-																				combined with any other offers. To get
-																				$150 off an eligible device, enter the
-																				promo code SMART150 at checkout and the
-																				$150 discount will apply within the
+																				purchase req&apos;d. Offer valid on
+																				eligible smartphones with a full retail
+																				price of $300 or higher; 0% APR. Cannot
+																				be combined with any other offers. To
+																				get $150 off an eligible device, enter
+																				the promo code SMART150 at checkout and
+																				the $150 discount will apply within the
 																				cart. Limited-time offer. While supplies
 																				last. Pricing subject to change.
 																				<br />
@@ -3613,8 +3613,8 @@ export default function index() {
 																				In MA &amp; NV: Sales tax based on
 																				higher of device price or VZW’s device
 																				cost. In CA: Sales tax based on full
-																				price of device. Add'l CA eWaste fee may
-																				apply.
+																				price of device. Add&apos;l CA eWaste
+																				fee may apply.
 																				<br />
 																				<br />ⓒ 2021 Verizon
 																				<br />

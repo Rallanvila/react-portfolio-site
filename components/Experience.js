@@ -52,12 +52,12 @@ export default function Experience() {
 						height="62"
 					/>
 					<p>
-						I'm a web developer for{" "}
+						I&apos;m a web developer for{" "}
 						<a href="https://mybayside.church">MyBayside.church</a>. Bayside is
 						a community church located in Bradenton, FL with a major creative &
 						production team. We offer live services with realtime chat. As
-						different events and programs come up, I've assisted in maintaining
-						the site.
+						different events and programs come up, I&apos;ve assisted in
+						maintaining the site.
 						{/* I've been
 						supporting the web development since. I love the fast-paced industry
 						and new technologies developed to improve our quality of life. I
