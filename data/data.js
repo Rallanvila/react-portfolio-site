@@ -1,6 +1,6 @@
 const data = [
 	{
-		title: "VilaMortgage JavaScript App",
+		title: "VilaMortgage App",
 		image: "/../public/img/VilaMortgage.png",
 		type: "react",
 		link: "https://rallanvila.github.io/Mortgage-Calculator/",

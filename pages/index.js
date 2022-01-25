@@ -10,6 +10,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollUpButton from "react-scroll-up-button";
+import Drift from "react-driftjs";
+import Footer from "../components/Footer";
 
 export default function Home() {
 	useEffect(() => {
@@ -20,6 +22,7 @@ export default function Home() {
 			anchorPlacement: "center-bottom",
 		});
 	});
+
 	return (
 		<>
 			<HeadTag />
@@ -30,7 +33,9 @@ export default function Home() {
 			<Experience data-aos="fade-up" />
 			<Resume data-aos="fade-up" />
 			<Projects data-aos="fade-up" />
-			<ScrollUpButton />
+			{/* <ScrollUpButton /> */}
+			<Drift appId="u8dv2hf58kkk" />
+			<Footer />
 		</>
 	);
 }
