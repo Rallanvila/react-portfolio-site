@@ -343,7 +343,7 @@ export default function bayside() {
 																				<a
 																					href="https://church.us8.list-manage.com/track/click?u=b06e0327a4c18425bbfdede3a&id=08f4109fdf&e=cfe92327be"
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -373,7 +373,7 @@ export default function bayside() {
 																				<a
 																					href="https://church.us8.list-manage.com/track/click?u=b06e0327a4c18425bbfdede3a&id=27856fc0f4&e=cfe92327be"
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -588,7 +588,7 @@ export default function bayside() {
 																				<a
 																					href="https://church.us8.list-manage.com/track/click?u=b06e0327a4c18425bbfdede3a&id=9dacc265dc&e=cfe92327be"
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -1268,7 +1268,7 @@ export default function bayside() {
 																					<a
 																						href="https://church.us8.list-manage.com/vcard?u=b06e0327a4c18425bbfdede3a&id=4e97e84abc"
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						align="center"
 																						className="float-center"
 																						style={{
@@ -1447,7 +1447,7 @@ export default function bayside() {
 																					<a
 																						href="https://church.us8.list-manage.com/profile?u=b06e0327a4c18425bbfdede3a&id=4e97e84abc&e=cfe92327be&c=ae28130cdc"
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						style={{
 																							color: "#fff",
 																							fontFamily:
@@ -1467,7 +1467,7 @@ export default function bayside() {
 																					<a
 																						href="https://church.us8.list-manage.com/unsubscribe?u=b06e0327a4c18425bbfdede3a&id=4e97e84abc&e=cfe92327be&c=ae28130cdc"
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						style={{
 																							color: "#fff",
 																							fontFamily:
