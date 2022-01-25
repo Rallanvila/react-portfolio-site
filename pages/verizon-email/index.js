@@ -957,7 +957,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f5e&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=3dPdLLh9JH938fl259UFau5rMmTFfcabh0bdO9XiP44="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -1407,7 +1407,7 @@ export default function index() {
 																					className="text-right"
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f62&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=IO79ZtkAtp8x46V0rQi9Rx4JYcLN3iN4-IwPpMgwOTo="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#000",
 																						display: "inline-block",
@@ -1518,7 +1518,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f63&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=Wsr24UhuMwNUyTOlwOJ0cmEYhG8tmFK9_izHjGH9P0Q="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -1868,7 +1868,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f69&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=hMls3tQzB4-G6g_ZAYbDX_YRuwFuwh5h2iI82z8t5aQ="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -1903,7 +1903,7 @@ export default function index() {
 																					className="link"
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f6a&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=h5XKryecvMadDmtsXYtDvWfJVph2qsnAfmXmQankzVE="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						display: "inline-block",
@@ -2168,7 +2168,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f6b&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=MvxLZS4t8h6TisWs_GKwD44c0EJ0vX4-1bJI0-Kej6s="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						fontFamily:
@@ -2201,7 +2201,7 @@ export default function index() {
 																					className="link"
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f6a&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=h5XKryecvMadDmtsXYtDvWfJVph2qsnAfmXmQankzVE="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#2199e8",
 																						display: "inline-block",
@@ -2512,7 +2512,7 @@ export default function index() {
 																					<a
 																						href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f71&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=8C64dyXguQdqQz1F2UKP7VHGmKmQTqVrMuY5w1Toays="
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						style={{
 																							color: "#000",
 																							fontFamily:
@@ -2530,7 +2530,7 @@ export default function index() {
 																					<a
 																						href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f72&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=7akQs9vlzOq0cBII-N8O8Rf9u8fFi9dOwtf0lbwWlx4="
 																						target="_blank"
-																						rel="noopener"
+																						rel="noreferrer"
 																						style={{
 																							color: "#000",
 																							fontFamily:
@@ -2848,7 +2848,7 @@ export default function index() {
 															<a
 																href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f77&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=XXKQVOmJHqeFNNkw5huzidFB-PF9LZeXe529gy653e0="
 																target="_blank"
-																rel="noopener"
+																rel="noreferrer"
 																style={{
 																	color: "#2199e8",
 																	display: "inline-block",
@@ -2880,7 +2880,7 @@ export default function index() {
 															<a
 																href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f78&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=-tgIFy5CXA29xr6rO9DOxv_KS8YH5zU8Rweoz3aQ_k4="
 																target="_blank"
-																rel="noopener"
+																rel="noreferrer"
 																style={{
 																	color: "#2199e8",
 																	display: "inline-block",
@@ -2912,7 +2912,7 @@ export default function index() {
 															<a
 																href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f79&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=IX6Bz9ITcJLK2ejIXMN2nrSFMnZYExFCHxf6ZRs8dtY="
 																target="_blank"
-																rel="noopener"
+																rel="noreferrer"
 																style={{
 																	color: "#2199e8",
 																	display: "inline-block",
@@ -2944,7 +2944,7 @@ export default function index() {
 															<a
 																href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f7a&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=Fxk2yR3IO2m9JzzprwkD8N0mb0gmJdvIVTZL5ShMAKM="
 																target="_blank"
-																rel="noopener"
+																rel="noreferrer"
 																style={{
 																	color: "#2199e8",
 																	display: "inline-block",
@@ -3155,7 +3155,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f99&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=tlDqVVl1yxIXqLVp7ojqjKWW8QA46nwr5Erh-8cF5bU="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3175,7 +3175,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f9a&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=Af3kBKlGgYNhFt6FPYMcIou_4Adpcxgg2Rsl7JKyH3U="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3195,7 +3195,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f9b&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=77ehpc0uJgZTmEpBs20YSxX6RiMRpz-lghOm8NCLhRQ="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3215,7 +3215,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f9c&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=mQxcT1udqQ-fjrEwIWvNsbnuBUsXlZx1Iw7vF64dbvI="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3235,7 +3235,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f9d&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=IQydoOuy-mM7ZGK9hUnqzWb-DGSdlMVfB2GqX3H8SZA="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3255,7 +3255,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f9e&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=FCRlXDvitoU0yLShwU1U3Szoytld9i3igkXklfcABus="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3275,7 +3275,7 @@ export default function index() {
 																			<a
 																				href="https://t.sl.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2f9f&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=Xy8O1nvJNOblJrh5dyoVo5LR7Xusd9H8bEur5icImDI="
 																				target="_blank"
-																				rel="noopener"
+																				rel="noreferrer"
 																				style={{
 																					color: "#000",
 																					display: "inline-block",
@@ -3595,7 +3595,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2fa1&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=Ilj3lovxk2VWx-G4TqM1WEO44KvQb9XG4uU9HJQQri4="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#747676",
 																						fontFamily:
@@ -3625,7 +3625,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2fa4&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&s=swmCUCdLWwG9kyMCvmqjlKARBIC4GRWAr1LurbFdl04="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#747676",
 																						fontFamily:
@@ -3643,7 +3643,7 @@ export default function index() {
 																				<a
 																					href="https://t.e.verizonwireless.com/r/?id=h10243cc2%2C160272e8%2C11ae2fa8&CMP=CRM_M_CU_AC_EM_AAL_99_99_MULTI_DEVICE_RETARGET&EMHID=79074208f6531e7031cc7479c594afc4defb382f4c39c826cc1c37edecd4db1e&CUHID=c4f79c620ad9fb41a7b56282c8797e03d492a4a952caf29d06e2b54af542b0cb&p1=%40wKYsKEXBHqX4jM6x%2FobONQ%3D%3D&p2=DM287833&p3=AAL_Retargeting&p4=%40N253Ccuf51MkWmhxWR1bag%3D%3D&s=yGl8-ZVgkv8CHruwKate5Gzu21DWul5WvJj6XeoV0b0="
 																					target="_blank"
-																					rel="noopener"
+																					rel="noreferrer"
 																					style={{
 																						color: "#747676",
 																						fontFamily:
