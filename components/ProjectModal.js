@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import React, { useState } from "react";
 import { FaGithub, FaLink } from "react-icons/fa";
 import styles from "./ProjectModal.module.scss";

@@ -1,6 +1,6 @@
 import styles from "./AboutMe.module.scss";
 import profilePic from "../public/img/ProfilePic.png";
-import Image from "next/Image";
+import Image from "next/image";
 import { BsKeyboard } from "react-icons/bs";
 import { MdFamilyRestroom } from "react-icons/md";
 import { SiMaterialui } from "react-icons/si";

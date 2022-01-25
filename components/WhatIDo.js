@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import styles from "./WhatIDo.module.scss";
 import reactSvg from "../public/img/react_svg.svg";
 import design from "../public/img/design.svg";

@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import styles from "./Experience.module.scss";
 import nextjsLogo from "../public/img/Nextjs-logo.svg";
 import bayside from "../public/img/bayside.png";

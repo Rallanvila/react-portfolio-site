@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
 import styles from "./ProjectContainer.module.scss";
 import ProjectModal from "./ProjectModal";
