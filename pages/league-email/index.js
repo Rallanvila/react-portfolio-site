@@ -1951,6 +1951,7 @@ export default function index() {
 																					<a
 																						href="mailto:clientemail@gmail.com"
 																						target="_blank"
+																						rel="noopener"
 																						style={{
 																							color: "#2199e8",
 																							fontFamily:
@@ -1971,6 +1972,7 @@ export default function index() {
 																					<a
 																						href="http://cloud.em.riotgames.com/AccountSettings?sk=8816037f-85ee-515d-a6ce-d1e666ee2f2e"
 																						target="_blank"
+																						rel="noopener"
 																						style={{
 																							color: "#2199e8",
 																							fontFamily:
