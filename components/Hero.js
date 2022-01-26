@@ -1,10 +1,12 @@
 import styles from "./Hero.module.scss";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Hero() {
 	return (
 		<header className={styles.header}>
 			<div className={styles.hero__overlay}></div>
+			<Image src="/img/Banner-Hires.jpg" alt="City Street" layout="fill" />
 			<motion.div
 				animate={{ y: 0 }}
 				transition={{
