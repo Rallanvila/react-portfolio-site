@@ -4,7 +4,9 @@
 	width: 100%;
 	height: 400px;
 	margin-bottom: 50px;
-	background-image: url(../public/img/Resume2.jpg);
+	position: relative;
+	// margin: 1rem auto;
+	background-image: url(/img/Resume2.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -15,6 +17,7 @@
 		background: #000000;
 		opacity: 0.5;
 		position: absolute;
+		z-index: 2;
 	}
 	.resume__headline {
 		@include flexContainer(column, center, center);
