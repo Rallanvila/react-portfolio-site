@@ -10,18 +10,16 @@ export default function Footer() {
 				<h2>Richard Allan Vila</h2>
 				<p>Full-Stack Developer</p>
 			</div>
-			<Link
+			<a
 				href="https://www.linkedin.com/in/allan-vila-91922b129/"
+				target="_blank"
 				rel="noreferrer"
-				passHref
 			>
 				<FaLinkedin />
-				{/* <i className="fab fa-linkedin" /> */}
-			</Link>
-			<Link href="https://github.com/Rallanvila" rel="noreferrer" passHref>
-				{/* <i className="fab fa-github-square" /> */}
+			</a>
+			<a href="https://github.com/Rallanvila" target="_blank" rel="noreferrer">
 				<FaGithubSquare />
-			</Link>
+			</a>
 		</footer>
 	);
 }

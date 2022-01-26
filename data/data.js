@@ -1,7 +1,7 @@
 const data = [
 	{
 		title: "VilaMortgage App",
-		image: "/public/img/VilaMortgage.png",
+		image: "/../public/img/VilaMortgage.png",
 		type: "react",
 		link: "https://rallanvila.github.io/Mortgage-Calculator/",
 		github: "https://github.com/Rallanvila/Mortgage-Calculator",
@@ -17,7 +17,7 @@ const data = [
 	},
 	{
 		title: "Vila Real Estate App",
-		image: "/public/img/vila-real-estate.png",
+		image: "/../public/img/vila-real-estate.png",
 		type: "react",
 		link: "https://vila-real-estate.netlify.app/",
 		github: "https://github.com/Rallanvila/React-Real-Estate",
@@ -35,7 +35,7 @@ const data = [
 	},
 	{
 		title: "HBO Max Newsletter HTML Email",
-		image: "/public/img/HBOMax Newsletter.png",
+		image: "/../public/img/HBOMax Newsletter.png",
 		type: "email",
 		link: "/hbo-email",
 		github: "https://github.com/Rallanvila/React-Real-Estate",
@@ -51,7 +51,7 @@ const data = [
 	},
 	{
 		title: "Dribbble Newsletter HTML Email",
-		image: "/public/img/Dribble Newsletter.png",
+		image: "/../public/img/Dribble Newsletter.png",
 		type: "email",
 		link: "/dribbble-email",
 		github: "https://github.com/Rallanvila/Dribble-Email",
@@ -67,7 +67,7 @@ const data = [
 	},
 	{
 		title: "Bayside Newsletter HTML Email",
-		image: "/public/img/Bayside Newsletter.png",
+		image: "/../public/img/Bayside Newsletter.png",
 		type: "email",
 		link: "/bayside-email",
 		github: "https://github.com/Rallanvila/Bayside-Emails",
@@ -82,7 +82,7 @@ const data = [
 	},
 	{
 		title: "Target Transactional HTML Email",
-		image: "/public/img/Target Transactional.png",
+		image: "/../public/img/Target Transactional.png",
 		type: "email",
 		link: "/target-email",
 		github: "https://github.com/Rallanvila/Target-Email",
@@ -98,7 +98,7 @@ const data = [
 	},
 	{
 		title: "ParkMobile Transactional HTML Email",
-		image: "/public/img/ParkMobile.png",
+		image: "/../public/img/ParkMobile.png",
 		type: "email",
 		link: "/parkmobile-email",
 		github: "https://github.com/Rallanvila/ParkMobile",
@@ -114,7 +114,7 @@ const data = [
 	},
 	{
 		title: "Verizon Promo HTML Email",
-		image: "/public/img/verizon.jpeg",
+		image: "/../public/img/verizon.jpeg",
 		type: "email",
 		link: "/verizon-email",
 		github: "https://github.com/Rallanvila/verizon-promo-email",
@@ -130,7 +130,7 @@ const data = [
 	},
 	{
 		title: "LOL Promo HTML Email",
-		image: "/public/img/League of Legends.png",
+		image: "/../public/img/League of Legends.png",
 		type: "email",
 		link: "/league-email",
 		github: "https://github.com/Rallanvila/League-of-Legends-Email",
@@ -146,7 +146,7 @@ const data = [
 	},
 	{
 		title: "Mercedes Scrolling Landing Page",
-		image: "/public/img/Auto.png",
+		image: "/../public/img/Auto.png",
 		type: "landing",
 		link: "https://rallanvila.github.io/Auto-Landing-Page/",
 		github: "https://github.com/Rallanvila/Auto-Landing-Page/",
@@ -161,7 +161,7 @@ const data = [
 	},
 	{
 		title: "NSi Landing Page",
-		image: "/public/img/nsi.png",
+		image: "/../public/img/nsi.png",
 		type: "landing",
 		link: "https://nsi-landingpage.netlify.app/",
 		github: "https://github.com/Rallanvila/NSI-Landing-Page",
@@ -177,7 +177,7 @@ const data = [
 	},
 	{
 		title: "Animated Landing Page",
-		image: "/public/img/Animated Landing.png",
+		image: "/../public/img/Animated Landing.png",
 		type: "landing",
 		link: "https://rallanvila.github.io/animated-landing-page/",
 		github: "https://github.com/Rallanvila/animated-landing-page/",
@@ -193,7 +193,7 @@ const data = [
 	},
 	{
 		title: "Vila Pressure Washing",
-		image: "/public/img/pressure.png",
+		image: "/../public/img/pressure.png",
 		type: "landing",
 		link: "https://vila-pressurewashing.netlify.app",
 		github: "https://github.com/Rallanvila/Vila-Powerwashing",
@@ -209,7 +209,7 @@ const data = [
 	},
 	{
 		title: "100% Javascript Splash Page",
-		image: "/public/img/js-splash.png",
+		image: "/../public/img/js-splash.png",
 		type: "javascript",
 		link: "https://rallanvila.github.io/Javascript-Splash-Page/",
 		github: "https://github.com/Rallanvila/Javascript-Splash-Page/",
@@ -226,7 +226,7 @@ const data = [
 	},
 	{
 		title: "Facebook Clone",
-		image: "/public/img/Facebook Clone.png",
+		image: "/../public/img/Facebook Clone.png",
 		type: "landing",
 		link: "https://rallanvila.github.io/facebook-clone/",
 		github: "https://github.com/Rallanvila/facebook-clone",
