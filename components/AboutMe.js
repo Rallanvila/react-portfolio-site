@@ -19,19 +19,11 @@ const AboutMe = () => {
 					alt="Profile Picture"
 				/>
 				<p>
-					{/* 👋🏼 My name is Allan, and I&apos;m a full-stack web developer for the
-					Department of Defense. I have a passion for constructing things for
-					the web and bettering humanity. I&apos;m currently a full-stack
-					developer at Naval Systems Incorporated. We focus on high-end projects
-					for the Department of Defense. I come from a major sales/financial
-					background that transitioned to web development and have been loving
-					the ride ever since. */}
 					👋🏼 My name is Allan, I&apos;m a full-stack web developer for Naval
 					Systems Inc. We focus on high-end clearance projects for the
 					Department of Defense, Navy, Air Force, Missile Defense Agency,and
 					DASA DE&C. I have a passion for constructing things for the web to
 					simplify and better humanity.
-					{/* <!-- I've been in SMB sales for the past six years. I aspire to break in into an exciting career in technology that will allow me to channel my logic through creating fantastic software and design that helps humanity simplify the way we live. --> */}
 					<br />
 					<br />
 					When I&apos;m not geeking out in front of my screen, I&apos;m a little
