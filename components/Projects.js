@@ -49,16 +49,6 @@ const Projects = () => {
 			>
 				{displayedProjects.map((project) => (
 					<ProjectContainer key={project.title} project={project} />
-					// <ProjectContainer
-					// 	key={project.title}
-					// 	title={project.title}
-					// 	image={project.image}
-					// 	description={project.description}
-					// 	link={project.link}
-					// 	github={project.github}
-					// 	type={project.type}
-					// 	lesson={project.lesson}
-					// />
 				))}
 			</div>
 		</section>

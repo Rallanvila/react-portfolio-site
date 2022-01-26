@@ -1,20 +1,13 @@
 import Image from "next/image";
-import { useContext, useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./ProjectContainer.module.scss";
 import ProjectModal from "./ProjectModal";
-import { ModalOverlayContext } from "../context/ModalContext";
 import Overlay from "./Overlay";
 
 export default function ProjectContainer({
 	project: { title, image, description, link, github, type, lessons },
 }) {
 	const [modal, setModal] = useState(false);
-	const [modalOverlay, setModalOverlay] = useContext(ModalOverlayContext);
-
-	// useEffect(() => {
-	// 	modal ? setModalOverlay(true) : setModalOverlay(false);
-	// 	console.log("useEffect() modalOverlay: ", modalOverlay);
-	// }, [modal]);
 
 	function toggleModal() {
 		!modal ? setModal(true) : setModal(false);
@@ -53,9 +46,6 @@ export default function ProjectContainer({
 					<Overlay toggleModal={toggleModal} modal={modal} />
 				</>
 			) : null}
-			{/* {modal ? (
-				<div className={styles.overlay} onClick={toggleModal}></div>
-			) : null} */}
 		</>
 	);
 }
