@@ -1,5 +1,36 @@
 const data = [
 	{
+		title: "NSI Modernization",
+		image: "/img/modernization.png",
+		type: "landing",
+		link: "https://modernization.netlify.app/",
+		github: "https://github.com/Rallanvila/nsi_modernization",
+		description:
+			"This is the rebranding of Naval System's company website. It's a live project that we're continuing to get copy to complete. Once we finalize all approvals of copy this will be NSi's new website.",
+		lessons: [
+			"Google Maps API",
+			"Project Management",
+			"Azure DevOps Sprint Reviews",
+			"C-Level mission/vision conversations for website designs",
+			"Leading conference calls discussing progress and next steps",
+		],
+	},
+	{
+		title: "Vilagrub",
+		image: "/img/vilagrub.png",
+		type: "react",
+		link: "https://modernization.netlify.app/",
+		github: "https://github.com/Rallanvila/nsi_modernization",
+		description:
+			"Vilagrub is an e-commerce template that I've built. It has user authentication, cart, and adding payments with stripe. This is in progress now, and there will be more to come.",
+		lessons: [
+			"Auth0 - User Authentication",
+			"Next.js Server Side Application",
+			"Static Page generation",
+			"Building a cart state and storing in memory",
+		],
+	},
+	{
 		title: "VilaMortgage App",
 		image: "/img/VilaMortgage.png",
 		type: "react",
