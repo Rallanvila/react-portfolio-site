@@ -9,7 +9,7 @@ const Resume = () => {
 				<button className={styles.resume__btn}>
 					<a
 						className={styles.resume__btnLink}
-						href="./downloads/Allan Vila's Resume.pdf"
+						href="/Allan_Vila-Full-stack_Resume.pdf"
 						target="_blank"
 						rel="noreferrer"
 					>

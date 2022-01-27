@@ -127,22 +127,22 @@ const data = [
 			"I am writing reusable code for minimal editing when changing content",
 		],
 	},
-	{
-		title: "ParkMobile Transactional HTML Email",
-		image: "/img/ParkMobile.png",
-		type: "email",
-		link: "/parkmobile-email",
-		github: "https://github.com/Rallanvila/ParkMobile",
-		description:
-			"This is a fully customizable HTML Transactional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
-		lessons: [
-			"Pixel Perfect Design Replication",
-			"How to set variables and @mixins for brand consistent code",
-			"How to set a JS data file to easily change data for email campaigns",
-			"Creating proper table layouts for image and summary sections",
-			"I am writing reusable code for minimal editing when changing content",
-		],
-	},
+	// {
+	// 	title: "ParkMobile Transactional HTML Email",
+	// 	image: "/img/ParkMobile.png",
+	// 	type: "email",
+	// 	link: "/parkmobile-email",
+	// 	github: "https://github.com/Rallanvila/ParkMobile",
+	// 	description:
+	// 		"This is a fully customizable HTML Transactional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
+	// 	lessons: [
+	// 		"Pixel Perfect Design Replication",
+	// 		"How to set variables and @mixins for brand consistent code",
+	// 		"How to set a JS data file to easily change data for email campaigns",
+	// 		"Creating proper table layouts for image and summary sections",
+	// 		"I am writing reusable code for minimal editing when changing content",
+	// 	],
+	// },
 	{
 		title: "Verizon Promo HTML Email",
 		image: "/img/verizon.jpeg",
