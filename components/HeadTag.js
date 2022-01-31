@@ -10,7 +10,7 @@ const HeadTag = () => {
 				content="I'm a full-stack web developer for Naval Systems Inc. We focus on high-end clearance projects for the Department of Defense and various military branches. I have a passion for constructing things for the web to simplify and better humanity."
 			/>
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
-			<meta property="og:title" content="Allan Vila | Full Stack Developer" />
+			<meta property="og:title" content="Allan Vila | Full-Stack Developer" />
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://www.rallanvila.com" />
 			<meta property="og:image" content="/img/site_img.png" />
