@@ -19,7 +19,7 @@ const data = [
 		title: "Vilagrub",
 		image: "/img/vilagrub.png",
 		type: "react",
-		link: "https://modernization.netlify.app/",
+		link: "https://vila-grub.vercel.app/",
 		github: "https://github.com/Rallanvila/nsi_modernization",
 		description:
 			"Vilagrub is an e-commerce template that I've built. It has user authentication, cart, and adding payments with stripe. This is in progress now, and there will be more to come.",
@@ -132,7 +132,7 @@ const data = [
 	// 	image: "/img/ParkMobile.png",
 	// 	type: "email",
 	// 	link: "/parkmobile-email",
-	// 	github: "https://github.com/Rallanvila/ParkMobile",
+	// 	github: "https://github.com/Rallanvila/ParkMobile",header
 	// 	description:
 	// 		"This is a fully customizable HTML Transactional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
 	// 	lessons: [

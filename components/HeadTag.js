@@ -13,24 +13,20 @@ const HeadTag = () => {
 			<meta property="og:title" content="Allan Vila | Full Stack Developer" />
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://www.rallanvila.com" />
-			<meta property="og:image" content="../public/img/site_img.png" />
+			<meta property="og:image" content="/img/site_img.png" />
 			<meta name="twitter:site" content="@AllanVila318" />
-			<link
-				rel="apple-touch-icon"
-				sizes="120x120"
-				href="../public/img/Logo White.png"
-			/>
+			<link rel="apple-touch-icon" sizes="120x120" href="/img/Logo White.png" />
 			<link
 				rel="icon"
 				type="image/png"
 				sizes="32x32"
-				href="/..public/img/Logo White.png"
+				href="/img/Logo White.png"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
 				sizes="16x16"
-				href="../public/img/Logo White.png"
+				href="/img/Logo White.png"
 			/>
 		</Head>
 	);
