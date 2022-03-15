@@ -1,21 +1,5 @@
 const data = [
 	{
-		title: "Vila Travel Companion",
-		image: "/img/Vila-travel.png",
-		type: "react",
-		link: "https://vila-travel.netlify.app/",
-		github: "https://github.com/Rallanvila/vila_travel_advisor",
-		description:
-			"This is a travel companion app. You can use this when looking for restaurants, hotels, or attractions around your area. You can view the ratings, address, phone number, website, and more. This was made possible with the travel advisor API. ",
-		lessons: [
-			"Rapid API",
-			"Material UI",
-			"Google Maps API",
-			"Travel Advisor API",
-			"useEffect and createRef hooks",
-		],
-	},
-	{
 		title: "NSI Modernization",
 		image: "/img/modernization.png",
 		type: "landing",
@@ -32,20 +16,53 @@ const data = [
 		],
 	},
 	{
-		title: "Vilagrub",
-		image: "/img/vilagrub.png",
+		title: "Vila Commerce",
+		image: "/img/vilacommerce.png",
 		type: "react",
-		link: "https://vila-grub.vercel.app/",
-		github: "https://github.com/Rallanvila/nsi_modernization",
+		link: "https://vilacommerce.netlify.app/",
+		github: "https://github.com/Rallanvila/e-commerce",
 		description:
-			"Vilagrub is an e-commerce template that I've built. It has user authentication, cart, and adding payments with stripe. This is in progress now, and there will be more to come.",
+			"This is an e-commerce store that is pulling from the commmerce.js API. Also, stripe is integrated into the app for the full checkout process. Once you finish checkout, there will be an email sent to you with all order details and payment info.",
 		lessons: [
-			"Auth0 - User Authentication",
-			"Next.js Server Side Application",
-			"Static Page generation",
-			"Building a cart state and storing in memory",
+			"Stripe",
+			"Material UI",
+			"Commerce.js",
+			"React-hook-form",
+			"Complex useEffect dependencies",
 		],
 	},
+	{
+		title: "Vila Travel Companion",
+		image: "/img/Vila-travel.png",
+		type: "react",
+		link: "https://vilatravel.netlify.app/",
+		github: "https://github.com/Rallanvila/vila_travel_advisor",
+		description:
+			"This is a travel companion app. You can use this when looking for restaurants, hotels, or attractions around your area. You can view the ratings, address, phone number, website, and more. This was made possible with the travel advisor API. ",
+		lessons: [
+			"Rapid API",
+			"Material UI",
+			"Google Maps API",
+			"Travel Advisor API",
+			"useEffect and createRef hooks",
+		],
+	},
+
+	// {
+	// 	title: "Vilagrub",
+	// 	image: "/img/vilagrub.png",
+	// 	type: "react",
+	// 	link: "https://vila-grub.vercel.app/",
+	// 	github: "https://github.com/Rallanvila/nsi_modernization",
+	// 	description:
+	// 		"Vilagrub is an e-commerce template that I've built. It has user authentication, cart, and adding payments with stripe. This is in progress now, and there will be more to come.",
+	// 	lessons: [
+	// 		"Auth0 - User Authentication",
+	// 		"Next.js Server Side Application",
+	// 		"Static Page generation",
+	// 		"Building a cart state and storing in memory",
+	// 	],
+	// },
 	{
 		title: "VilaMortgage App",
 		image: "/img/VilaMortgage.png",
