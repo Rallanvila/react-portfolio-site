@@ -17,15 +17,16 @@ export default function Hero() {
 				initial={{ opacity: 0, y: -300 }}
 				whileInView={{ opacity: 1 }}
 				viewport={{ once: true }}
-				className={styles.hero__headline}
-			>
+				className={styles.hero__headline}>
 				<h1 className={styles.hero__headlineAnimation}>
 					Hey there, I&apos;m Allan
 				</h1>
 				<span className={styles.webdev}>Full-Stack Web Developer</span>
-				<button className={styles.hero__headlineContactBtn}>
-					<a href="mailto:r.allanvila@gmail.com">Contact Me</a>
-				</button>
+				<a
+					href="mailto:r.allanvila@gmail.com"
+					className={styles.hero__headlineContactBtn}>
+					<p>Contact Me</p>
+				</a>
 			</motion.div>
 		</header>
 	);

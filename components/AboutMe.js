@@ -27,7 +27,7 @@ const AboutMe = () => {
 					<br />
 					<br />
 					When I&apos;m not geeking out in front of my screen, I&apos;m a little
-					bit of an adrenaline junky, enjoy my soon-to-be fiancé, two children,
+					bit of an adrenaline junky, enjoy my soon-to-be fiancée, two children,
 					and finding new memorable experiences for us.
 				</p>
 			</div>

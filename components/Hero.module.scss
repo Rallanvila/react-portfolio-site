@@ -40,10 +40,13 @@
 			color: $white;
 			font-family: $font-family-poppins;
 		}
-		button {
+		a {
 			position: absolute;
 			bottom: -70px;
 			right: 0;
+		}
+		p {
+			font-family: "Poppins", sans-serif;
 		}
 	}
 }

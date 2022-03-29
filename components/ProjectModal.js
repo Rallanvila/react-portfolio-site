@@ -57,11 +57,18 @@ export default function ProjectModal({
 								<FaLink /> {handleButtonLabelRender(type)}
 							</a>
 						</button>
-						<button>
+						{github !== "https://github.com/Rallanvila/nsi_modernization" ? (
+							<button>
+								<a href={github} target="_blank" rel="noreferrer">
+									<FaGithub /> View Code
+								</a>
+							</button>
+						) : null}
+						{/* <button>
 							<a href={github} target="_blank" rel="noreferrer">
 								<FaGithub /> View Code
 							</a>
-						</button>
+						</button> */}
 					</div>
 				</div>
 			</div>
