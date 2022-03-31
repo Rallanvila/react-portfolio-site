@@ -21,9 +21,13 @@
 		pointer-events: none;
 		z-index: 3;
 	}
+	span {
+		background: #caa;
+	}
 	img {
 		object-fit: cover;
 		object-position: center;
+		opacity: 0.5;
 	}
 	.hero__headline {
 		@include button;
@@ -39,6 +43,7 @@
 			font-size: 2rem;
 			color: $white;
 			font-family: $font-family-poppins;
+			background: none;
 		}
 		a {
 			position: absolute;
