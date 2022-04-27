@@ -5,9 +5,6 @@ import { useState } from "react";
 
 const Projects = () => {
 	const [displayedProjects, setDisplayedProjects] = useState(data);
-	// console.log("state: ", displayedProjects);
-
-	// displayedProjects.map((project) => console.log("projects: ", project));
 
 	return (
 		<section id="my-projects" className={styles.myProjects}>

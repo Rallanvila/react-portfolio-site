@@ -19,11 +19,12 @@ const AboutMe = () => {
 					alt="Profile Picture"
 				/>
 				<p>
-					👋🏼 My name is Allan, I&apos;m a full-stack web developer for Naval
-					Systems Inc. We focus on high-end clearance projects for the
-					Department of Defense, Navy, Air Force, Missile Defense Agency,and
-					DASA DE&C. I have a passion for constructing things for the web to
-					simplify and better humanity.
+					👋🏼 My name is Allan, I am an aspiring blogger, mentor, and dev coach
+					on the Accountability Buddies Twitter community. I&apos;m currently a
+					full-stack web developer for Naval Systems Inc. We focus on high-end
+					secret level clearance projects for the Department of Defense, Navy,
+					Air Force, Missile Defense Agency,and DASA DE&C. I have a passion for
+					constructing things for the web to simplify and better humanity.
 					<br />
 					<br />
 					When I&apos;m not geeking out in front of my screen, I&apos;m a little

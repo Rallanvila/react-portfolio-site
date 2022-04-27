@@ -21,7 +21,7 @@ export default function Hero() {
 				<h1 className={styles.hero__headlineAnimation}>
 					Hey there, I&apos;m Allan
 				</h1>
-				<span className={styles.webdev}>Full-Stack Web Developer</span>
+				<span className={styles.webdev}>Front-End Software Engineer</span>
 				<a
 					href="mailto:r.allanvila@gmail.com"
 					className={styles.hero__headlineContactBtn}>

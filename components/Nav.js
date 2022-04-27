@@ -10,7 +10,9 @@ export default function Nav() {
 				<p>Allan Vila</p>
 			</div>
 			<div className={styles.links}>
-				<a href="#about">About</a>
+				<a href="https://blog.rallanvila.com" target="_blank" rel="noreferrer">
+					Blog
+				</a>
 				<a href="#experience">Experience</a>
 				<a href="#my-projects">My Projects</a>
 			</div>
