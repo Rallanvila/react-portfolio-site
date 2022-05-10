@@ -34,7 +34,9 @@ export default function MySkills() {
 	let testing = [jest, cypress];
 	let utility = [vscode, vs, azure, git, github];
 	return (
-		<section className="max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2">
+		<section
+			className="max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2"
+			data-aos="fade-up">
 			<Technologies array={essentials} heading="The Essentials" />
 			<Technologies array={styling} heading="The Styling" />
 			<Technologies

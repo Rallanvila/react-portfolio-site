@@ -9,7 +9,7 @@ import Github from "../../public/img/Github.png";
 export default function Hero() {
 	return (
 		<header className="container px-8 my-8 mx-auto max-w-6xl flex flex-col-reverse sm:flex-row  sm:justify-between md:justify-evenly md:px-8">
-			<div>
+			<div data-aos="fade-right">
 				<h1 className="text-5xl font-bold mt-8 mb-4 sm:max-w-md sm:text-4xl md:text-5xl relative">
 					Hey there, Allan Vila here at your service!{"  "}
 					<span className="wave">👋🏼</span>
@@ -49,7 +49,9 @@ export default function Hero() {
 					</div>
 				</div>
 			</div>
-			<div className="max-w-xs mx-auto sm:mx-0 sm:max-w-xl">
+			<div
+				className="max-w-xs mx-auto sm:mx-0 sm:max-w-xl"
+				data-aos="fade-left">
 				<Image
 					src={ProfilePic2}
 					alt="Allan Vila Photo"

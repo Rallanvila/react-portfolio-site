@@ -8,7 +8,9 @@ export default function MyExperience() {
 		<section
 			id="experience"
 			className="max-w-6xl mt-8 mb-8 px-8 mx-auto md:flex md:mt-32">
-			<div className="flex flex-col-reverse md:flex-col md:w-1/2 ">
+			<div
+				className="flex flex-col-reverse md:flex-col md:w-1/2 "
+				data-aos="fade-right">
 				<h2 className="text-xl font-bold mb-12">
 					The tech I use every day on the job:
 				</h2>
@@ -21,7 +23,7 @@ export default function MyExperience() {
 					/>
 				</div>
 			</div>
-			<article className="md:w-1/2 md:ml-12">
+			<article className="md:w-1/2 md:ml-12" data-aos="fade-left">
 				<div className="max-w-xs mb-8">
 					<Image src={nsilogo} width={371} height={79} alt="nsi logo" />
 				</div>
