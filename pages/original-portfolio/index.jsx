@@ -11,7 +11,7 @@ import Drift from "react-driftjs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function index() {
+export default function Index() {
 	useEffect(() => {
 		AOS.init({
 			duration: 1000,
