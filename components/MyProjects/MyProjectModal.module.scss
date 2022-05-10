@@ -1,0 +1,110 @@
+@import "../styles//settings";
+
+.project__modalContainer {
+	@include flexContainer(column, center, center);
+	@include push--auto;
+	text-align: center;
+	// background-color: $color-bg;
+	background: rgba(240, 240, 240, 0.8);
+	// backdrop-filter: blur(2px);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transition: all 1s ease-in-out;
+	transform: translate(-50%, -50%);
+	z-index: 50;
+	margin: auto;
+	width: 80vw;
+	max-width: 50rem;
+	min-width: 350px;
+	max-height: 95vh;
+	overflow: auto;
+	border-radius: 10px;
+
+	&.active {
+		transition: all 1s ease-in-out;
+		width: 50vw;
+		height: 80vh;
+	}
+	h2,
+	h3,
+	li,
+	svg,
+	p {
+		color: #2f2d2e;
+	}
+	h2 {
+		// padding: 1rem;
+		margin: 1rem auto;
+	}
+	svg {
+		margin-right: 5px;
+	}
+	.closeBtn {
+		position: absolute;
+		font-size: 30px;
+		top: 10px;
+		right: 20px;
+		cursor: pointer;
+	}
+	.project__modalContainerContent {
+		@include flexContainer(column, center, center);
+		@include button-small;
+		width: 90%;
+		margin: 0 auto 20px;
+		// background: $white;
+		background: rgba(253, 255, 252, 0.8);
+		text-align: justify;
+		position: relative;
+		.imageContainer {
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+			img {
+				object-fit: cover;
+			}
+		}
+		.project__modalContainerLinks {
+			svg {
+				display: inline-block;
+			}
+			a {
+				display: inline-block;
+				margin: 1rem 1rem;
+				padding: 0.5rem 1rem;
+				font-size: 1rem;
+				color: $black;
+				background: rgba(240, 240, 240, 1);
+				border-radius: 0.5rem;
+			}
+
+			button {
+				margin: 20px 10px;
+			}
+		}
+	}
+}
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+.show {
+	display: flex;
+}
+@media screen and (max-width: 452px) {
+	.project__modalContainer {
+		.project__modalContainerContent {
+			width: 95%;
+			margin: 0 auto 10px;
+			.project__modalContainerLinks {
+				text-align: center;
+				margin-bottom: 1rem;
+				a {
+					margin: 0.5rem 1rem;
+				}
+			}
+		}
+	}
+}

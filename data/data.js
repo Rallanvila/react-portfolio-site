@@ -14,6 +14,24 @@ const data = [
 			"C-Level mission/vision conversations for website designs",
 			"Leading conference calls discussing progress and next steps",
 		],
+		portfolioVersion: ["v2"],
+	},
+	{
+		title: "VilaMortgage App",
+		image: "/img/VilaMortgage.png",
+		type: "react",
+		link: "https://rallanvila.github.io/Mortgage-Calculator/",
+		github: "https://github.com/Rallanvila/Mortgage-Calculator",
+		description:
+			"VilaMortgage is a fluid mortgage calculator app. You can filter your down payment, interest rate, property taxes, home insurance, and HOA. After calculating the total, you can move the values around to suit your budget. 💰",
+		lessons: [
+			"Pixel Perfect Design Replication",
+			"How to set variables and @mixins for brand consistent code",
+			"How to set a JS data file to easily change data for email campaigns",
+			"Create proper table layouts for image and summary sections",
+			"Writing reusable code for minimal editing when changing content",
+		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "Vila Commerce",
@@ -30,6 +48,25 @@ const data = [
 			"React-hook-form",
 			"Complex useEffect dependencies",
 		],
+		portfolioVersion: ["v1", "v2"],
+	},
+	{
+		title: "My Original Portfolio",
+		image: "/img/site_img.png",
+		type: "react",
+		link: "/original-portfolio",
+		github: "https://github.com/Rallanvila/react-portfolio-site",
+		description:
+			"As a self-taught developer, I managed to get hired within seven months of learning how to code. Within five months, I was able to build this site from scratch, completely custom in React, while building seventeen custom projects as well. This is the original portfolio that got me hired in seven months that I created while learning to code from my first console.log() on Nov 20th, 2020, and getting hired on June 1st, 2021. I made it with React using Next.js.",
+		lessons: [
+			"Figma",
+			"Context Api",
+			"React-Icons",
+			"Font-Awesome",
+			"React with Next.js",
+			"Absolute and Relative Positioning",
+		],
+		portfolioVersion: ["v2"],
 	},
 	// {
 	// 	title: "Vila Travel Companion",
@@ -46,6 +83,7 @@ const data = [
 	// 		"Travel Advisor API",
 	// 		"useEffect and createRef hooks",
 	// 	],
+	//  portfolioVersion: ['v2']
 	// },
 
 	// {
@@ -62,23 +100,9 @@ const data = [
 	// 		"Static Page generation",
 	// 		"Building a cart state and storing in memory",
 	// 	],
+	//portfolioVersion:[1,2]
 	// },
-	{
-		title: "VilaMortgage App",
-		image: "/img/VilaMortgage.png",
-		type: "react",
-		link: "https://rallanvila.github.io/Mortgage-Calculator/",
-		github: "https://github.com/Rallanvila/Mortgage-Calculator",
-		description:
-			"VilaMortgage is a fluid mortgage calculator app. You can filter your down payment, interest rate, property taxes, home insurance, and HOA. After calculating the total, you can move the values around to suit your budget. 💰",
-		lessons: [
-			"Pixel Perfect Design Replication",
-			"How to set variables and @mixins for brand consistent code",
-			"How to set a JS data file to easily change data for email campaigns",
-			"Create proper table layouts for image and summary sections",
-			"Writing reusable code for minimal editing when changing content",
-		],
-	},
+
 	{
 		title: "Vila Real Estate App",
 		image: "/img/vila-real-estate.png",
@@ -96,6 +120,7 @@ const data = [
 			"Filtering Data",
 			"Sorting Data",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "HBO Max Newsletter HTML Email",
@@ -112,6 +137,7 @@ const data = [
 			"Create proper table layouts for image and summary sections",
 			"Writing reusable code for minimal editing when changing content",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "Dribbble Newsletter HTML Email",
@@ -128,6 +154,7 @@ const data = [
 			"Create proper table layouts for image and summary sections",
 			"Writing reusable code for minimal editing when changing content",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "Bayside Newsletter HTML Email",
@@ -143,6 +170,7 @@ const data = [
 			"How to set a JS data file to easily change images and links to reuse template in an email campaign",
 			"I am writing reusable code for minimal editing when changing content.",
 		],
+		portfolioVersion: ["v1"],
 	},
 	{
 		title: "Target Transactional HTML Email",
@@ -159,13 +187,14 @@ const data = [
 			"Creating proper table layouts for image and summary sections",
 			"I am writing reusable code for minimal editing when changing content",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	// {
 	// 	title: "ParkMobile Transactional HTML Email",
 	// 	image: "/img/ParkMobile.png",
 	// 	type: "email",
 	// 	link: "/parkmobile-email",
-	// 	github: "https://github.com/Rallanvila/ParkMobile",header
+	// 	github: "https://github.com/Rallanvila/ParkMobile",
 	// 	description:
 	// 		"This is a fully customizable HTML Transactional Email / Template written from scratch. I've set up data entry points that allow anybody only to change the image files and descriptions. This way, the same template can be used and rotated in an HTML email marketing campaign.\nThe styling has been written with Sass. Gulp compiles the Sass, and then the images are minified for optimal performance into a master HTML file. The master index.html has everything compiled to inline HTML to work in all email clients. 🥳",
 	// 	lessons: [
@@ -175,6 +204,7 @@ const data = [
 	// 		"Creating proper table layouts for image and summary sections",
 	// 		"I am writing reusable code for minimal editing when changing content",
 	// 	],
+	//     portfolioVersion: ['v1']
 	// },
 	{
 		title: "Verizon Promo HTML Email",
@@ -191,6 +221,7 @@ const data = [
 			"Create proper table layouts for image and summary sections",
 			"Writing reusable code for minimal editing when changing content",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "LOL Promo HTML Email",
@@ -207,6 +238,7 @@ const data = [
 			"Create proper table layouts for image and summary sections",
 			"I am writing reusable code for minimal editing when changing content",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "Mercedes Scrolling Landing Page",
@@ -222,6 +254,7 @@ const data = [
 			"How to set and rotate states.",
 			"How to append/remove child nodes.",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "NSi Landing Page",
@@ -238,6 +271,7 @@ const data = [
 			"Hamburger menu for mobile",
 			"Continued improvement with JS animations",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "Animated Landing Page",
@@ -254,6 +288,7 @@ const data = [
 			"Page Delays",
 			"Animation delays and loops",
 		],
+		portfolioVersion: ["v1"],
 	},
 	{
 		title: "Vila Pressure Washing",
@@ -270,6 +305,7 @@ const data = [
 			"Social Integration",
 			"Google Maps API",
 		],
+		portfolioVersion: ["v1"],
 	},
 	{
 		title: "100% Javascript Splash Page",
@@ -287,6 +323,7 @@ const data = [
 			"Creating Elements with Javascript",
 			"Looping through nodes to create additional nodes",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 	{
 		title: "Facebook Clone",
@@ -302,6 +339,7 @@ const data = [
 			"Extensive Div Creation and Formatting",
 			"Coming Soon: Building the Right Sidebar",
 		],
+		portfolioVersion: ["v1", "v2"],
 	},
 ];
 export default data;

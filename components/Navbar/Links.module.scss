@@ -1,0 +1,21 @@
+.button {
+	border: 1px solid #46acdd;
+	color: #46acdd;
+	padding: 0.5rem 1rem;
+	border-radius: 0.4rem;
+	transition: all 0.2s ease-in-out;
+	margin-left: 1rem;
+	&:hover {
+		color: #fff;
+		background: #46acdd;
+	}
+	&.active {
+		color: #fff;
+		background: #46acdd;
+	}
+}
+@media (max-width: 768px) {
+	.button {
+		display: none;
+	}
+}

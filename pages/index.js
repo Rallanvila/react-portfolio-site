@@ -1,17 +1,14 @@
-import AboutMe from "../components/AboutMe";
-import Experience from "../components/Experience";
-import Hero from "../components/Hero";
-import Nav from "../components/Nav";
-import Resume from "../components/Resume";
-import WhatIDo from "../components/WhatIDo";
-import Projects from "../components/Projects";
-import HeadTag from "../components/HeadTag";
+import Navbar from "../components/Navbar/Navbar";
+import HeadTag from "../components/HeadTag/HeadTag";
+import Hero from "../components/Hero/Hero";
+import About from "../components/About/About";
+import MyExperience from "../components/MyExperience/MyExperience";
+import MySkills from "../components/MySkills/MySkills";
+import MyProjects from "../components/MyProjects/MyProjects";
+import Drift from "react-driftjs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import ScrollUpButton from "react-scroll-up-button";
-import Drift from "react-driftjs";
-import Footer from "../components/Footer";
 
 export default function Home() {
 	useEffect(() => {
@@ -24,18 +21,15 @@ export default function Home() {
 	});
 
 	return (
-		<>
+		<main>
 			<HeadTag />
-			<Nav />
-			<Hero />
-			<AboutMe data-aos="fade-up" />
-			<WhatIDo data-aos="fade-up" />
-			<Experience data-aos="fade-up" />
-			<Resume data-aos="fade-up" />
-			<Projects data-aos="fade-up" />
-			{/* <ScrollUpButton /> */}
+			<Navbar />
+			<Hero data-aos="fade-up" />
+			<About data-aos="fade-up" />
+			<MyExperience data-aos="fade-up" />
+			<MySkills data-aos="fade-up" />
+			<MyProjects data-aos="fade-up" />
 			<Drift appId="u8dv2hf58kkk" />
-			<Footer />
-		</>
+		</main>
 	);
 }
