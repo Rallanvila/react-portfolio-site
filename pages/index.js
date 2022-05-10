@@ -21,15 +21,17 @@ export default function Home() {
 	});
 
 	return (
-		<main>
+		<>
 			<HeadTag />
-			<Navbar />
-			<Hero data-aos="fade-up" />
-			<About data-aos="fade-up" />
-			<MyExperience data-aos="fade-up" />
-			<MySkills data-aos="fade-up" />
-			<MyProjects data-aos="fade-up" />
-			<Drift appId="u8dv2hf58kkk" />
-		</main>
+			<main>
+				<Navbar />
+				<Hero data-aos="fade-up" />
+				<About data-aos="fade-up" />
+				<MyExperience data-aos="fade-up" />
+				<MySkills data-aos="fade-up" />
+				<MyProjects data-aos="fade-up" />
+				<Drift appId="u8dv2hf58kkk" />
+			</main>
+		</>
 	);
 }
