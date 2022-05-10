@@ -10,17 +10,18 @@ export default function About() {
 					<h2 className="text-xl mb-2 font-semibold">About Me:</h2>
 					<p className="md:max-w-lg sm:max-w-full">
 						I&apos;m currently a full-stack web developer for Naval Systems Inc.
+						We focus on high-end secret-level clearance projects for the
+						Department of Defense, Navy, Air Force, Missile Defense Agency, and
+						DASA DE&C.
 						<br />
 						<br />
-						I am a blogger, mentor, and dev coach on the Accountability Buddies
-						Twitter community. We focus on high-end secret-level clearance
-						projects for the Department of Defense, Navy, Air Force, Missile
-						Defense Agency, and DASA DE&C. I have a passion for constructing
-						things for the web to simplify and better humanity.
+						I am a blogger, mentor, and dev coach throughout Twitter and the
+						Accountability Buddies Twitter community. I have a passion for
+						coding, as our imagination is our only limit.
 						<br />
 						<br />
 						When I&apos;m not geeking out in front of my screen, I&apos;m an
-						adrenaline junky, enjoying my soon-to-be fiancée and two children
+						adrenaline junky, enjoying my two children, a soon-to-be fiancée,
 						and finding new memorable experiences.
 					</p>
 				</article>

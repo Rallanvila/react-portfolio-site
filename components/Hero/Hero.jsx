@@ -5,6 +5,7 @@ import ProfilePic2 from "../../public/img/ProfilePic2.png";
 import LinkedIn from "../../public/img/LinkedIn.png";
 import Twitter from "../../public/img/Twitter.png";
 import Github from "../../public/img/Github.png";
+import { FaGithub, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
 	return (
