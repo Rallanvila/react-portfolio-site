@@ -62,3 +62,36 @@ export default function Hero() {
 		</header>
 	);
 }
+{
+	/* <div className="flex items-center">
+						<Link
+							href="https://www.linkedin.com/in/allan-vila-91922b129/"
+							passHref
+							rel=" noreferrer">
+							<a className="mx-2" target="_blank">
+								<Image src={LinkedIn} alt="linkedin" width={35} height={35} />
+							</a>
+						</Link>
+						<Link
+							href="https://twitter.com/RAllanVila"
+							passHref
+							rel=" noreferrer">
+							<a className="mx-2" target="_blank">
+								<Image src={Twitter} alt="twitter" width={35} height={35} />
+							</a>
+						</Link>
+						<Link
+							href="https://github.com/Rallanvila"
+							passHref
+							rel=" noreferrer">
+							<a className="mx-2" target="_blank">
+								<Image
+									src={Github}
+									alt="https://github.com/Rallanvila"
+									width={35}
+									height={35}
+								/>
+							</a>
+						</Link>
+					</div> */
+}
