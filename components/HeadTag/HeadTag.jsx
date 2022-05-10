@@ -15,26 +15,39 @@ const HeadTag = () => {
 			<meta property="og:url" content="https://www.rallanvila.com" />
 			<meta property="og:image" content="/img/MyCard.png" />
 			<meta name="twitter:site" content="@RAllanVila" />
-            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-            <link rel="manifest" href="/site.webmanifest"/>
-
-		</Head>
-	);
-};
-
-export default HeadTag;
-			 <link
+			<link
+				rel="apple-touch-icon"
+				sizes="180x180"
+				href="/apple-touch-icon.png"
+			/>
+			<link
 				rel="icon"
 				type="image/png"
 				sizes="32x32"
-				href="/img/MyLogoIcon.svg"
+				href="/favicon-32x32.png"
 			/>
 			<link
 				rel="icon"
 				type="image/png"
 				sizes="16x16"
-				href="/img/MyLogoIcon.svg"
-			/> 
-			<link rel="apple-touch-icon" sizes="120x120" href="/img/MyLogoIcon.svg" /> 
+				href="/favicon-16x16.png"
+			/>
+			<link rel="manifest" href="/site.webmanifest" />
+		</Head>
+	);
+};
+
+export default HeadTag;
+//  <link
+// 	rel="icon"
+// 	type="image/png"
+// 	sizes="32x32"
+// 	href="/img/MyLogoIcon.svg"
+// />
+// <link
+// 	rel="icon"
+// 	type="image/png"
+// 	sizes="16x16"
+// 	href="/img/MyLogoIcon.svg"
+// />
+// <link rel="apple-touch-icon" sizes="120x120" href="/img/MyLogoIcon.svg" />
