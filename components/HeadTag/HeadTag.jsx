@@ -13,7 +13,7 @@ const HeadTag = () => {
 			<meta property="og:title" content="Allan Vila | Full-Stack Developer" />
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://www.rallanvila.com" />
-			<meta property="og:image" content="/img/MyCard" />
+			<meta property="og:image" content="/img/MyCard.png" />
 			<meta name="twitter:site" content="@RAllanVila" />
 			<link rel="apple-touch-icon" sizes="120x120" href="/img/MyLogoIcon.svg" />
 			<link
