@@ -20,7 +20,7 @@ const HeadTag = () => {
 				name="twitter:description"
 				content="I'm a full-stack engineer with a front-end framework and design specialty"
 			/>
-			<meta name="twitter:image" content="/img/MyCard.png" />
+			<meta name="twitter:image" content="/img/AllOneLogo.png" />
 			<meta name="twitter:card" content="/img/MyCard.png" />
 			<link
 				rel="apple-touch-icon"
