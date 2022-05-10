@@ -6,7 +6,7 @@ export default function About() {
 	return (
 		<section className="diagonal-box">
 			<div className="content px-8 mx-auto flex flex-col-reverse justify-between max-w-6xl md:flex-row">
-				<article>
+				<article data-aos="fade-right">
 					<h2 className="text-xl mb-2 font-semibold">About Me:</h2>
 					<p className="md:max-w-lg sm:max-w-full">
 						I&apos;m currently a full-stack web developer for Naval Systems Inc.
@@ -24,7 +24,9 @@ export default function About() {
 						and finding new memorable experiences.
 					</p>
 				</article>
-				<div className=" sm:flex sm:items-center sm:mx-auto sm:mb-8 md:mr-0 md:ml-8">
+				<div
+					data-aos="fade-left"
+					className=" sm:flex sm:items-center sm:mx-auto sm:mb-8 md:mr-0 md:ml-8">
 					<Image
 						src={AboutPic}
 						width={408}
