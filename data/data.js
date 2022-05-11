@@ -34,6 +34,23 @@ const data = [
 		portfolioVersion: ["v1", "v2"],
 	},
 	{
+		title: "Vila Travel Companion",
+		image: "/img/Vila-travel.png",
+		type: "react",
+		link: "https://vilatravel.netlify.app/",
+		github: "https://github.com/Rallanvila/vila_travel_advisor",
+		description:
+			"This is a travel companion app. You can use this when looking for restaurants, hotels, or attractions around your area. You can view the ratings, address, phone number, website, and more. This was made possible with the travel advisor API. ",
+		lessons: [
+			"Rapid API",
+			"Material UI",
+			"Google Maps API",
+			"Travel Advisor API",
+			"useEffect and createRef hooks",
+		],
+		portfolioVersion: ["v2"],
+	},
+	{
 		title: "Vila Commerce",
 		image: "/img/vilacommerce.png",
 		type: "react",
@@ -68,24 +85,6 @@ const data = [
 		],
 		portfolioVersion: ["v2"],
 	},
-	// {
-	// 	title: "Vila Travel Companion",
-	// 	image: "/img/Vila-travel.png",
-	// 	type: "react",
-	// 	link: "https://vilatravel.netlify.app/",
-	// 	github: "https://github.com/Rallanvila/vila_travel_advisor",
-	// 	description:
-	// 		"This is a travel companion app. You can use this when looking for restaurants, hotels, or attractions around your area. You can view the ratings, address, phone number, website, and more. This was made possible with the travel advisor API. ",
-	// 	lessons: [
-	// 		"Rapid API",
-	// 		"Material UI",
-	// 		"Google Maps API",
-	// 		"Travel Advisor API",
-	// 		"useEffect and createRef hooks",
-	// 	],
-	//  portfolioVersion: ['v2']
-	// },
-
 	// {
 	// 	title: "Vilagrub",
 	// 	image: "/img/vilagrub.png",
