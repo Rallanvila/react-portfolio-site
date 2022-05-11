@@ -43,14 +43,14 @@ export default function Links() {
 					</Link>
 				</li>
 				<li className={styles.button}>
-					<Link href="/Resume.pdf">
+					<Link href="/resume.pdf">
 						<a target="_blank" rel="noreferrer">
 							Resume
 						</a>
 					</Link>
 				</li>
 				<li className="ml-3 sm:mx-3 md:hidden">
-					<Link href="/Resume.pdf">
+					<Link href="/resume.pdf">
 						<a target="_blank" rel="noreferrer">
 							Resume
 						</a>
