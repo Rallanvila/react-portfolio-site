@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { IoMdPaper } from "react-icons/io";
 import { BiBuildings } from "react-icons/bi";
 import { VscMultipleWindows } from "react-icons/vsc";
-import Hamburger from "hamburger-react";
 import Link from "next/link";
 import styles from "./Links.module.scss";
 
