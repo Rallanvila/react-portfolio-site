@@ -20,9 +20,10 @@ export default function About() {
 						coding, as our imagination is our only limit.
 						<br />
 						<br />
-						When I&apos;m not geeking out in front of my screen, I&apos;m an
-						adrenaline junky, enjoying my two children, a soon-to-be fiancée,
-						and finding new memorable experiences.
+						When I&apos;m not geeking out in front of my screen, I&apos;m a bit
+						of an adrenaline junky. I love watching movies, enjoy spending time
+						with the love of my life Kim, and two children, and finding new
+						memorable experiences for the family.
 					</p>
 				</article>
 				<div
