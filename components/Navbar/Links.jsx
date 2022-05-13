@@ -42,7 +42,7 @@ export default function Links() {
 					</Link>
 				</li>
 				<li className={styles.button}>
-					<Link href="/resume.pdf">
+					<Link href="/resume.pdf" passHref>
 						<a target="_blank" rel="noreferrer">
 							Resume
 						</a>

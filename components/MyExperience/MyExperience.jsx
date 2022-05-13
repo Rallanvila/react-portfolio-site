@@ -11,9 +11,7 @@ export default function MyExperience() {
 			<div
 				className="flex flex-col-reverse md:flex-col md:w-1/2 "
 				data-aos="fade-right">
-				<h2 className="text-xl font-bold mb-12">
-					The tech I use every day on the job:
-				</h2>
+				<h2 className="text-xl font-bold mb-12">My Experience:</h2>
 				<div className="mb-8 flex justify-center md:justify-start md:mb-0">
 					<Image
 						src={Experience}
@@ -27,20 +25,26 @@ export default function MyExperience() {
 				<div className="max-w-xs mb-8">
 					<Image src={nsilogo} width={371} height={79} alt="nsi logo" />
 				</div>
-				<h3 className="text-lg font-semibold mb-4">What we do:</h3>
+				<h3 className="text-lg font-semibold mb-2">What we do:</h3>
 				<p className="mb-8">
 					Naval Systems supports the Department of Defense. I work on
 					secret-level clearance projects that help with our ongoing
 					national-security well-being. My work is currently active with support
 					NavAir, US Air Force, Missile Defense Agency, DASA DE&C, and more.
 				</p>
-				<h3 className="text-lg font-semibold mb-4">What we do:</h3>
+				<h3 className="text-lg font-semibold mb-2">What I do:</h3>
+				<p className="mb-5">
+					I&apos;m the Front-End Engineer and design expert for the team. I
+					build, maintain and improve various dashboards on several projects
+					that track and update NavAir and the Air Force with crucial data
+					regarding their defensive operations.
+				</p>
 				<p>
-					I&apos;m the front-end engineer and design expert for the team.
-					I&apos;m tasked with beautifying our existing projects, making them
-					have a more modern look and feel while also adding and improving
-					existing functionality on the backend. Depending on the project, below
-					are the tech I use every day.{" "}
+					I also help design and develop client rebranding efforts. Attend
+					meetings with stakeholders to understand the mission, vision, and key
+					performance indicators the client is trying to improve to create a
+					product that will lead to higher conversion levels enabling the sales
+					teams.
 				</p>
 			</article>
 		</section>
