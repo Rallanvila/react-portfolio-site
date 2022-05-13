@@ -9,15 +9,16 @@ export default function About() {
 				<article data-aos="fade-in">
 					<h2 className="text-xl mb-2 font-semibold">About Me:</h2>
 					<p className="md:max-w-lg sm:max-w-full">
-						I&apos;m currently a full-stack web developer for Naval Systems Inc.
-						We focus on high-end secret-level clearance projects for the
-						Department of Defense, Navy, Air Force, Missile Defense Agency, and
-						DASA DE&C.
+						I am a successful 10+ years business sales professional turned
+						developer after covid. Once covid hit, I spent more time at home
+						with my family and noticed that we needed a change. This is when I
+						found my passion for software development.
 						<br />
 						<br />
-						I am a blogger, mentor, and dev coach throughout Twitter and the
-						Accountability Buddies Twitter community. I have a passion for
-						coding, as our imagination is our only limit.
+						While managing a 50-60hr workweek, school pick-ups, drop-offs,
+						dinner, and homework from 9:30 pm to 2:30 am, I&apos;d code to then
+						wake up at 7 am to rinse and repeat daily. I was hired as a
+						full-time developer in 7 months.
 						<br />
 						<br />
 						When I&apos;m not geeking out in front of my screen, I&apos;m a bit
