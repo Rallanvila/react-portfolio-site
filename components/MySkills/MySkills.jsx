@@ -25,6 +25,7 @@ import vscode from "../../public/img/vscode.png";
 import vs from "../../public/img/vs.png";
 import azure from "../../public/img/azure.png";
 import git from "../../public/img/git.png";
+import redux from "../../public/img/redux.png";
 
 export default function MySkills() {
 	let essentials = [javascript, html, css];
@@ -32,7 +33,7 @@ export default function MySkills() {
 	let styling = [tailwind, sass, styledcomp, material, bootstrap, figma];
 	let backend = [node, net, csharp, postman, sqlserver, mongodb];
 	let testing = [jest, cypress];
-	let utility = [vscode, vs, azure, git, github];
+	let utility = [redux, vscode, vs, azure, git, github];
 	return (
 		<section
 			className="max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2"
