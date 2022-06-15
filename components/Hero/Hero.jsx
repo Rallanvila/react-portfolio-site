@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ProfilePic2 from "../../public/img/ProfilePic2.png";
+import Me from "../../public/img/Me.png";
 import LinkedIn from "../../public/img/LinkedIn.png";
 import Twitter from "../../public/img/Twitter.png";
 import Github from "../../public/img/Github.png";
@@ -53,12 +54,7 @@ export default function Hero() {
 			<div
 				className="max-w-xs mx-auto sm:mx-0 sm:max-w-xl"
 				data-aos="fade-left">
-				<Image
-					src={ProfilePic2}
-					alt="Allan Vila Photo"
-					width={478}
-					height={541}
-				/>
+				<Image src={Me} alt="Allan Vila Photo" width={478} height={541} />
 			</div>
 		</header>
 	);
