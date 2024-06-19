@@ -1,101 +1,76 @@
-import React, { useState } from 'react';
-import Experience from '../../public/img/experience.svg';
+import React from 'react';
 import Image from 'next/image';
-import { avbExperience, nsiExperience } from '../../data/jobs';
-import avbCon from '../../public/img/avb-con.png';
-import nsiCon from '../../public/img/nsi-con.png';
+import experience from '../../data/jobs';
+import styled from 'styled-components';
+
+const MyExperienceTitle = styled.h2`
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+`;
+const Job = styled.article`
+  margin: 1rem auto 2rem;
+`;
+const Container = styled.section`
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+`;
+const JobDescription = styled.div`
+  max-width: 72rem;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+`;
+const JobDescriptionWhatWeDo = styled.section`
+  margin-right: 2rem;
+  flex: 1;
+`;
+const JobDescriptionWhatIDo = styled.section`
+  margin-right: 2rem;
+  flex: 2;
+`;
+const JobDescriptionColumnTitle = styled.h2`
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+`;
 
 export default function MyExperience() {
-	const [avb, setAvb] = useState(true);
-	const [nsi, setNsi] = useState(false);
-
-	const company = {
-		nsi,
-		avb,
-	};
-
-	const handleShow = (e) => {
-		if (e.target.innerText === '2022 - Present') {
-			setAvb(true);
-			setNsi(false);
-		} else if (e.target.innerText === '2021 - 2022') {
-			setNsi(true);
-			setAvb(false);
-		}
-	};
-	return (
-		<>
-			<section
-				id='experience'
-				className='max-w-6xl mt-8 mb-8 px-8 mx-auto md:flex md:mt-32 relative'>
-				<div
-					className='flex flex-col-reverse md:flex-col md:w-1/2 '
-					data-aos='fade-right'>
-					<h2 className='text-xl font-bold mb-12'>My Experience:</h2>
-					<div className='mb-8 flex justify-center md:justify-start md:mb-0'>
-						<Image
-							src={Experience}
-							width={452}
-							height={425}
-							alt='guy sitting on computer'
-						/>
-					</div>
-					<Image
-						src={nsiCon}
-						width={150}
-						height={100}
-						alt='guy sitting on computer'
-					/>
-					<Image
-						src={avbCon}
-						width={250}
-						height={120}
-						alt='guy sitting on computer'
-					/>
-				</div>
-				<Job company={company} />
-			</section>
-		</>
-	);
+  return (
+    <Container
+      id='experience'
+      // data-aos='fade-right' //Todo: figure out if I can use this here
+    >
+      <MyExperienceTitle>My Experience:</MyExperienceTitle>
+      {experience.map((job) => {
+        const { image, alt, whatWeDo, whatIDo, whatIDo2, jobName, time } = job;
+        return (
+          <Job
+            // data-aos='fade-left' //Todo: figure out if I can use this here
+            key={jobName}>
+            <Image src={image} width={247} height={52} alt={alt} />
+            <h2 className='mb-2'>{time}</h2>
+            <JobDescription>
+              <JobDescriptionWhatWeDo>
+                <JobDescriptionColumnTitle>
+                  What we do:
+                </JobDescriptionColumnTitle>
+                <p className='mb-8'>{whatWeDo}</p>
+              </JobDescriptionWhatWeDo>
+              <JobDescriptionWhatIDo>
+                <JobDescriptionColumnTitle>
+                  What I do:
+                </JobDescriptionColumnTitle>
+                <p className='mb-5'>{whatIDo}</p>
+                <p>{whatIDo2}</p>
+              </JobDescriptionWhatIDo>
+            </JobDescription>
+          </Job>
+        );
+      })}
+    </Container>
+  );
 }
-
-const Job = (props) => {
-	const { company } = props;
-	const { avb, nsi } = company;
-
-	if (avb) {
-		const { image, alt, whatWeDo, whatIDo, whatIDo2 } = avbExperience;
-		console.log(whatWeDo.split(' ').length);
-		return (
-			<article className='md:w-1/2 md:ml-12 mr-4' data-aos='fade-left'>
-				<div className='max-w-xs mb-8'>
-					<Image src={image} width={371} height={79} alt={alt} />
-				</div>
-
-				<h3 className='text-lg font-semibold mb-2'>What we do:</h3>
-				<p className='mb-8'>{whatWeDo}</p>
-				<h3 className='text-lg font-semibold mb-2'>What I do:</h3>
-				<p className='mb-5'>{whatIDo}</p>
-				<p>{whatIDo2}</p>
-			</article>
-		);
-	}
-	if (nsi) {
-		const { image, alt, whatWeDo, whatIDo, whatIDo2 } = nsiExperience;
-		return (
-			<article className='md:w-1/2 md:ml-12 mr-4' data-aos='fade-left'>
-				<div className='max-w-xs mb-8'>
-					<Image src={image} width={371} height={79} alt={alt} />
-				</div>
-
-				<h3 className='text-lg font-semibold mb-2'>What we do:</h3>
-				<p className='mb-8'>{whatWeDo}</p>
-				<h3 className='text-lg font-semibold mb-2'>What I do:</h3>
-				<p className='mb-5'>{whatIDo}</p>
-				<p>{whatIDo2}</p>
-			</article>
-		);
-	} else {
-		return null;
-	}
-};
