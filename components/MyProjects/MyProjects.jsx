@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './MyProjects.module.scss';
 import MyProjectContainer from './MyProjectContainer';
 import data from '../../data/data';
-import { useState } from 'react';
 
 export default function MyProjects() {
   const [displayedProjects, setDisplayedProjects] = useState(data);
