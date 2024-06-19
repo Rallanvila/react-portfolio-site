@@ -49,11 +49,6 @@ export default function MyProjects() {
             Show All
           </button>
           <FilterButton
-            type='email'
-            text='HTML Emails'
-            activeType={projectType}
-          />
-          <FilterButton
             type='landing'
             text='Landing Pages'
             activeType={projectType}
