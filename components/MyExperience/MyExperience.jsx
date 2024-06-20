@@ -7,7 +7,7 @@ const MyExperienceTitle = styled.h2`
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 `;
 const Job = styled.article`
   margin: 1rem auto 2rem;
@@ -47,11 +47,18 @@ export default function MyExperience() {
       <MyExperienceTitle>My Experience:</MyExperienceTitle>
       {experience.map((job) => {
         const { image, alt, whatWeDo, whatIDo, whatIDo2, jobName, time } = job;
+
         return (
           <Job
             // data-aos='fade-left' //Todo: figure out if I can use this here
             key={jobName}>
-            <Image src={image} width={247} height={52} alt={alt} />
+            <Image
+              src={image}
+              width={247}
+              height={52}
+              alt={alt}
+              style={{ objectFit: 'contain' }}
+            />
             <h2 className='mb-2'>{time}</h2>
             <JobDescription>
               <JobDescriptionWhatWeDo>
