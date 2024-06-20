@@ -3,10 +3,10 @@ const data = [
     title: 'NSI Modernization',
     image: '/img/modernization.png',
     type: 'landing',
-    link: 'https://modernization.netlify.app/',
+    link: 'https://n-s-i.us/',
     github: 'https://github.com/Rallanvila/nsi_modernization',
     description:
-      "This is the rebranding of Naval System's company website. It's a live project that we're continuing to get copy to complete. Once we finalize all approvals of copy this will be NSi's new website.",
+      "This is the rebranding of Naval System's company website I built while working there. I created all the designs in Figma, and then built it from the ground up. I also added Google Analytics, Facebook Pixels, and a form database to track all the leads coming in.",
     lessons: [
       'Google Maps API',
       'Project Management',
