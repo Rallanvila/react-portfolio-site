@@ -1,57 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
 import experience from '../../data/jobs';
-import styled from 'styled-components';
-
-const Container = styled.section`
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 2rem;
-`;
-const MyExperienceTitle = styled.h2`
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-`;
-const Job = styled.article`
-  margin: 1rem auto 2rem;
-`;
-const JobDescription = styled.div`
-  max-width: 72rem;
-  @media (min-width: 768px) {
-    display: flex;
-  }
-`;
-const JobDescriptionWhatWeDo = styled.section`
-  margin-right: 2rem;
-  flex: 1;
-`;
-const JobDescriptionWhatIDo = styled.section`
-  margin-right: 2rem;
-  flex: 2;
-`;
-const JobDescriptionColumnTitle = styled.h2`
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-`;
 
 export default function MyExperience() {
   return (
-    <Container
-      id='experience'
-      // data-aos='fade-right' //Todo: figure out if I can use this here
-    >
-      <MyExperienceTitle>My Experience:</MyExperienceTitle>
+    <section id='experience' className='max-w-6xl mx-auto mb-12 px-8'>
+      <h2 className='text-xl leading-7 font-bold mb-8'>My Experience:</h2>
       {experience.map((job) => {
         const { image, alt, whatWeDo, whatIDo, whatIDo2, jobName, time } = job;
 
         return (
-          <Job
-            // data-aos='fade-left' //Todo: figure out if I can use this here
-            key={jobName}>
+          <article key={jobName} className='my-4'>
             <Image
               src={image}
               width={247}
@@ -60,24 +19,26 @@ export default function MyExperience() {
               style={{ objectFit: 'contain' }}
             />
             <h2 className='mb-2'>{time}</h2>
-            <JobDescription>
-              <JobDescriptionWhatWeDo>
-                <JobDescriptionColumnTitle>
+            <div className='max-w-6xl flex flex-col md:flex-row'>
+              {/* What we do */}
+              <section className='mr-8 basis-1/3'>
+                <h2 className='text-lg leading-7 font-semibold mb-2'>
                   What we do:
-                </JobDescriptionColumnTitle>
+                </h2>
                 <p className='mb-8'>{whatWeDo}</p>
-              </JobDescriptionWhatWeDo>
-              <JobDescriptionWhatIDo>
-                <JobDescriptionColumnTitle>
+              </section>
+              {/* What I do */}
+              <section className='mr-8 basis-2/3'>
+                <h2 className='text-lg leading-7 font-semibold mb-2'>
                   What I do:
-                </JobDescriptionColumnTitle>
+                </h2>
                 <p className='mb-5'>{whatIDo}</p>
                 <p>{whatIDo2}</p>
-              </JobDescriptionWhatIDo>
-            </JobDescription>
-          </Job>
+              </section>
+            </div>
+          </article>
         );
       })}
-    </Container>
+    </section>
   );
 }
