@@ -3,6 +3,11 @@ import Image from 'next/image';
 import experience from '../../data/jobs';
 import styled from 'styled-components';
 
+const Container = styled.section`
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+`;
 const MyExperienceTitle = styled.h2`
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -11,11 +16,6 @@ const MyExperienceTitle = styled.h2`
 `;
 const Job = styled.article`
   margin: 1rem auto 2rem;
-`;
-const Container = styled.section`
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 2rem;
 `;
 const JobDescription = styled.div`
   max-width: 72rem;

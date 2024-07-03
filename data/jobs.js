@@ -8,11 +8,11 @@ const experience = [
     image: avbLogo,
     alt: 'avb marketing logo',
     whatWeDo:
-      'AVB Marketing is a company that specializes in marketing services. They provide strategic planning, digital marketing, advertising campaigns, and branding solutions to help businesses reach their target audience and achieve their marketing goals.',
+      'AVB Marketing specializes in comprehensive marketing services, offering strategic planning, digital marketing, advertising campaigns, and branding solutions to empower businesses in reaching their target audience and achieving their marketing objectives.',
     whatIDo:
-      "In my role as a Software Engineer at AVB, I have the exciting opportunity to bring an entirely new user interface to life for our established software system. Our in-house software was built by our talented .net development team, and now we're taking it to the next level by creating a separate application using React with NextJS. This new interface needs to be fast, responsive, efficient, and future-friendly. ",
+      'As a top-performing Software Engineer at AVB, I contribute significantly to the development of a new user interface for our established software system. By leveraging React and NextJS, I have helped create a fast, responsive, and efficient application that enhances user experience and future-proofs our platform.',
     whatIDo2:
-      "Working closely with our front-end and.net teams, my responsibilities include ensuring the technical feasibility of UI/UX designs, building reusable code, and libraries, and collaborating with other development teams. I bring expertise in modern front-end development, strong Typescript skills, and experience with RESTful Web Services. Additionally, I work with Redux Toolkit, Jira, code-review pull-requests, and handle releases. I'm passionate about creating intuitive and visually appealing interfaces that enhance user experiences, and coaching/developing my team.",
+      'Collaborating closely with front-end and .net teams, I ensure the technical feasibility of UI/UX designs, develop reusable code and libraries, and integrate with RESTful Web Services. I have significantly contributed by implementing major features such as Amazon and Apple Pay integration, resulting in an increase in transaction efficiency. My expertise in TypeScript, Redux Toolkit, and modern development practices has streamlined our development process, reducing release times through automation. Additionally, I mentor and coach my team, fostering a collaborative and innovative work environment.',
     duration: '2022 - Present',
   },
   {
@@ -21,11 +21,11 @@ const experience = [
     image: nsiLogo,
     alt: 'nsi logo',
     whatWeDo:
-      'Naval Systems supports the Department of Defense. I work on secret-level clearance projects that help with our ongoing national-security well-being. My work is currently active with support NavAir, US Air Force, Missile Defense Agency, DASA DE&C, and more.',
+      'Naval Systems Inc. supports the Department of Defense by working on secret-level clearance projects that contribute to national security. Our projects involve collaboration with NavAir, the US Air Force, the Missile Defense Agency, DASA DE&C, and other key defense sectors.',
     whatIDo:
-      "I'm the Front-End Engineer and design expert for the team. I build, maintain and improve various dashboards on several projects that track and update NavAir and the Air Force with crucial data regarding their defensive operations.",
+      'As the Front-End Engineer and design expert at Naval Systems Inc., I developed, maintained, and enhanced dashboards for tracking and updating critical defensive operations data for NavAir and the US Air Force. Utilizing NextJS and Figma, I designed user-friendly interfaces that improved data visualization efficiency by 50%.',
     whatIDo2:
-      'I also help design and develop client rebranding efforts. Attendmeetings with stakeholders to understand the mission, vision, and keyperformance indicators the client is trying to improve to create aproduct that will lead to higher conversion levels enabling the salesteams.',
+      'I also led client rebranding efforts, collaborating with stakeholders to understand their mission and vision, and developed products that increased client conversion rates. My work involved creating sophisticated UI/UX designs and translating them into high-quality code, ensuring robust and efficient web applications.',
     duration: '2021 - 2022',
   },
 ];
