@@ -10,7 +10,7 @@ export default function MyExperience() {
         const { image, alt, whatWeDo, whatIDo, whatIDo2, jobName, time } = job;
 
         return (
-          <article key={jobName} className='my-4'>
+          <article key={jobName} className='my-4 first-of-type:sm:mb-12'>
             <Image
               src={image}
               width={247}
