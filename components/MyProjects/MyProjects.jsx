@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import styles from './MyProjects.module.scss';
-import MyProjectContainer from './MyProjectContainer';
-import data from '../../data/data';
+import React, { useState } from "react";
+import styles from "./MyProjects.module.scss";
+import MyProjectContainer from "./MyProjectContainer";
+import data from "../../data/data";
 
 export default function MyProjects() {
   const [displayedProjects, setDisplayedProjects] = useState(data);
-  const [projectType, setProjectType] = useState('');
+  const [projectType, setProjectType] = useState("");
 
   let portfolioV2Projects = [];
   for (let i = 0; i < displayedProjects.length; i++) {
@@ -13,7 +13,7 @@ export default function MyProjects() {
     let projectVersions = displayedProjects[i].portfolioVersion;
     for (let j = 0; j < projectVersions.length; j++) {
       let version = projectVersions[j];
-      if (version === 'v2') portfolioV2Projects.push(project);
+      if (version === "v2") portfolioV2Projects.push(project);
     }
   }
 
@@ -25,7 +25,7 @@ export default function MyProjects() {
 
   const clearFilter = () => {
     setDisplayedProjects(data);
-    setProjectType('');
+    setProjectType("");
   };
 
   const FilterButton = ({ type, activeType, text }) => {
@@ -38,37 +38,41 @@ export default function MyProjects() {
     );
   };
 
-  //Todo: Figure out new layout to add my work contributions and still have some of my old beginner projects
-
+  //TODO: Figure out new layout to add my work contributions and still have some of my old beginner projects
   return (
-    <section id='my-projects' className={styles.myProjects}>
-      <h2 data-aos='fade-in'>Some Things I&apos;ve built:</h2>
-      <div className='flex justify-between items-center '>
-        <div className={styles.myProjectFilter} data-aos='fade-in'>
+    <section id="my-projects" className={styles.myProjects}>
+      <h2 data-aos="fade-in">Some early learning projects:</h2>
+      <div className="flex justify-between items-center ">
+        <div className={styles.myProjectFilter} data-aos="fade-in">
           <button className={styles.filterBtn} onClick={clearFilter}>
             Show All
           </button>
           <FilterButton
-            type='landing'
-            text='Landing Pages'
+            type="landing"
+            text="Landing Pages"
             activeType={projectType}
           />
           <FilterButton
-            type='javascript'
-            text='Javascript'
+            type="javascript"
+            text="Javascript"
             activeType={projectType}
           />
-          <FilterButton type='react' text='React' activeType={projectType} />
+          <FilterButton type="react" text="React" activeType={projectType} />
         </div>
       </div>
       <div
         className={styles.myProjects__projectContainer}
-        data-aos='fade-in'
-        data-aos-anchor-placement='top-center'>
-        <div className='w-full grid gap-8 px-8 sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-8'>
-          {portfolioV2Projects.map((project) => (
-            <MyProjectContainer key={project.title} project={project} />
-          ))}
+        data-aos="fade-in"
+        data-aos-anchor-placement="top-center"
+      >
+        <div className="w-full grid gap-8 px-8 sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-8">
+          {portfolioV2Projects.map((project) => {
+            if (!project.portfolioVersion.includes("depricated")) {
+              return (
+                <MyProjectContainer key={project.title} project={project} />
+              );
+            }
+          })}
         </div>
       </div>
     </section>
