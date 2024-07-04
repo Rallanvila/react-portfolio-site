@@ -83,7 +83,7 @@ const data = [
       "React with Next.js",
       "Absolute and Relative Positioning",
     ],
-    portfolioVersion: ["v2"],
+    portfolioVersion: ["v2", "depricated"],
   },
   // {
   // 	title: "Vilagrub",
