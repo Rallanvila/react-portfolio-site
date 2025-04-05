@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import bootstrap from '../../public/img/bootstrap.png';
 
 interface TechnologiesProps {
   array: string[];
@@ -11,80 +10,20 @@ const Technologies: React.FC<TechnologiesProps> = ({ array, heading }) => {
   return (
     <div className='mb-8'>
       <h3 className='font-semibold text-xl mb-4'>{heading}</h3>
-      <div className='flex'>
-        {array.map((image, i) =>
-          image === bootstrap ? (
-            <React.Fragment key={i}>
-              <div className='sm:hidden mr-4'>
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '61px',
-                    height: '50px',
-                  }}>
-                  <Image
-                    src={image}
-                    alt={`${heading} technology icon`}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    sizes='61px'
-                  />
-                </div>
-              </div>
-              <div className='hidden sm:block mr-4'>
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '75.5px',
-                    height: '60px',
-                  }}>
-                  <Image
-                    src={image}
-                    alt={`${heading} technology icon`}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    sizes='75.5px'
-                  />
-                </div>
-              </div>
-            </React.Fragment>
-          ) : (
-            <React.Fragment key={i}>
-              <div className='sm:hidden mr-4'>
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '50px',
-                    height: '50px',
-                  }}>
-                  <Image
-                    src={image}
-                    alt={`${heading} technology icon`}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    sizes='50px'
-                  />
-                </div>
-              </div>
-              <div className='hidden sm:block mr-4'>
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '60px',
-                    height: '60px',
-                  }}>
-                  <Image
-                    src={image}
-                    alt={`${heading} technology icon`}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    sizes='60px'
-                  />
-                </div>
-              </div>
-            </React.Fragment>
-          )
-        )}
+      <div className='flex flex-wrap gap-4'>
+        {array.map((image, i) => (
+          <div
+            key={i}
+            className='relative w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] transition-transform duration-300 hover:scale-110'>
+            <Image
+              src={image}
+              alt={`${heading} technology icon`}
+              fill
+              className='object-contain'
+              sizes='(max-width: 640px) 50px, 60px'
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

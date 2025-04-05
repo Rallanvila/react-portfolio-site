@@ -1,34 +1,35 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Me from '../../public/img/Me.png';
-import LinkedIn from '../../public/img/LinkedIn.png';
-import Twitter from '../../public/img/Twitter.png';
-import Github from '../../public/img/Github.png';
+import Me from '@/public/img/Me.png';
+import LinkedIn from '@/public/img/LinkedIn.png';
+import Twitter from '@/public/img/Twitter.png';
+import Github from '@/public/img/Github.png';
 
 const Hero: React.FC = () => {
   return (
-    <header className='container px-8 my-8 mx-auto max-w-6xl flex flex-col-reverse sm:flex-row sm:justify-between md:justify-evenly md:px-8'>
-      <div data-aos='fade-right'>
-        <h1 className='text-5xl font-bold mt-8 mb-4 sm:max-w-md sm:text-4xl md:text-5xl relative'>
-          Hey there, Allan Vila here at your service!{'  '}
-          <span className='wave'>👋🏼</span>
+    <header className='container mx-auto max-w-6xl px-8 my-12 flex flex-col-reverse sm:flex-row sm:justify-between md:justify-evenly md:px-8'>
+      <div data-aos='fade-right' className='sm:max-w-xl'>
+        <h1 className='text-4xl sm:text-5xl font-bold mb-6 relative text-gray-800'>
+          Hey there, Allan Vila here at your service!{' '}
+          <span className='inline-block animate-bounce'>👋🏼</span>
         </h1>
-        <div className='flex justify-between items-center sm:items-start sm:flex-col sm:justify-start'>
-          <h2 className='font-semibold text-xl my-4'>Software Engineer</h2>
-          <div className='flex items-center'>
+        <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8'>
+          <h2 className='text-xl font-semibold mb-4 sm:mb-0 text-blue-600'>
+            Software Engineer
+          </h2>
+          <div className='flex items-center space-x-4'>
             <Link
               href='https://www.linkedin.com/in/allan-vila-91922b129/'
               target='_blank'
               rel='noopener noreferrer'
-              className='mx-2 hover:opacity-80 transition-opacity'>
-              <div
-                style={{ width: '35px', height: '35px', position: 'relative' }}>
+              className='transition-transform duration-300 hover:scale-110'>
+              <div className='relative w-[35px] h-[35px]'>
                 <Image
                   src={LinkedIn}
                   alt='LinkedIn'
                   fill
-                  style={{ objectFit: 'contain' }}
+                  className='object-contain'
                   sizes='35px'
                   loading='lazy'
                 />
@@ -38,14 +39,13 @@ const Hero: React.FC = () => {
               href='https://twitter.com/RAllanVila'
               target='_blank'
               rel='noopener noreferrer'
-              className='mx-2 hover:opacity-80 transition-opacity'>
-              <div
-                style={{ width: '35px', height: '35px', position: 'relative' }}>
+              className='transition-transform duration-300 hover:scale-110'>
+              <div className='relative w-[35px] h-[35px]'>
                 <Image
                   src={Twitter}
                   alt='Twitter'
                   fill
-                  style={{ objectFit: 'contain' }}
+                  className='object-contain'
                   sizes='35px'
                   loading='lazy'
                 />
@@ -55,14 +55,13 @@ const Hero: React.FC = () => {
               href='https://github.com/Rallanvila'
               target='_blank'
               rel='noopener noreferrer'
-              className='mx-2 hover:opacity-80 transition-opacity'>
-              <div
-                style={{ width: '35px', height: '35px', position: 'relative' }}>
+              className='transition-transform duration-300 hover:scale-110'>
+              <div className='relative w-[35px] h-[35px]'>
                 <Image
                   src={Github}
                   alt='GitHub'
                   fill
-                  style={{ objectFit: 'contain' }}
+                  className='object-contain'
                   sizes='35px'
                   loading='lazy'
                 />
@@ -70,22 +69,21 @@ const Hero: React.FC = () => {
             </Link>
           </div>
         </div>
+        <p className='text-lg text-gray-700 mb-6'>
+          I create dynamic web interfaces using React.js and collaborate with
+          designers and backend developers to build high-quality, user-friendly
+          applications.
+        </p>
       </div>
       <div
-        className='max-w-xs mx-auto sm:mx-0 sm:max-w-xl'
+        className='max-w-xs mx-auto sm:mx-0 sm:max-w-xl mb-8 sm:mb-0'
         data-aos='fade-left'>
-        <div
-          style={{
-            position: 'relative',
-            width: '478px',
-            height: '541px',
-            maxWidth: '100%',
-          }}>
+        <div className='relative w-[478px] h-[541px] max-w-full transition-transform duration-500 hover:scale-105'>
           <Image
             src={Me}
             alt='Allan Vila Photo'
             fill
-            style={{ objectFit: 'contain' }}
+            className='object-contain'
             priority
             sizes='(max-width: 640px) 100vw, 478px'
           />

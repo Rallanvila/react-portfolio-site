@@ -8,48 +8,51 @@ const MyExperience: React.FC = () => {
       id='experience'
       data-aos='fade-in'
       className='max-w-6xl mx-auto mb-12 px-8'>
-      <h2 className='text-xl leading-7 font-bold mb-8'>My Experience:</h2>
-      {experience.map((job: Job) => {
-        const { image, alt, whatWeDo, whatIDo, whatIDo2, jobName, time } = job;
+      <h2 className='text-2xl font-bold mb-8 text-gray-800'>My Experience:</h2>
+      <div className='space-y-12'>
+        {experience.map((job: Job) => {
+          const { image, alt, whatWeDo, whatIDo, whatIDo2, jobName, time } =
+            job;
 
-        return (
-          <article key={jobName} className='my-4 first-of-type:sm:mb-12'>
-            <div
-              style={{
-                position: 'relative',
-                width: '247px',
-                height: '52px',
-                maxWidth: '100%',
-              }}>
-              <Image
-                src={image}
-                alt={alt}
-                fill
-                style={{ objectFit: 'contain' }}
-                sizes='(max-width: 640px) 100vw, 247px'
-              />
-            </div>
-            <h2 className='mb-2'>{time}</h2>
-            <div className='max-w-6xl flex flex-col md:flex-row'>
-              {/* What we do */}
-              <section className='mr-8 basis-1/3'>
-                <h2 className='text-lg leading-7 font-semibold mb-2'>
-                  What we do:
-                </h2>
-                <p className='mb-8'>{whatWeDo}</p>
-              </section>
-              {/* What I do */}
-              <section className='mr-8 basis-2/3'>
-                <h2 className='text-lg leading-7 font-semibold mb-2'>
-                  What I do:
-                </h2>
-                <p className='mb-5'>{whatIDo}</p>
-                <p>{whatIDo2}</p>
-              </section>
-            </div>
-          </article>
-        );
-      })}
+          return (
+            <article
+              key={jobName}
+              className='bg-white rounded-lg shadow-md p-6 transition-shadow duration-300 hover:shadow-lg'>
+              <div className='flex flex-col md:flex-row md:items-center md:justify-between mb-6'>
+                <div className='relative w-[247px] h-[52px] max-w-full mb-4 md:mb-0'>
+                  <Image
+                    src={image}
+                    alt={alt}
+                    fill
+                    className='object-contain'
+                    sizes='(max-width: 640px) 100vw, 247px'
+                  />
+                </div>
+                <h2 className='text-lg font-semibold text-blue-600'>{time}</h2>
+              </div>
+
+              <div className='grid md:grid-cols-3 gap-8'>
+                {/* What we do */}
+                <section className='md:col-span-1'>
+                  <h3 className='text-lg font-semibold mb-2 text-gray-800'>
+                    What we do:
+                  </h3>
+                  <p className='text-gray-700'>{whatWeDo}</p>
+                </section>
+
+                {/* What I do */}
+                <section className='md:col-span-2'>
+                  <h3 className='text-lg font-semibold mb-2 text-gray-800'>
+                    What I do:
+                  </h3>
+                  <p className='text-gray-700 mb-3'>{whatIDo}</p>
+                  <p className='text-gray-700'>{whatIDo2}</p>
+                </section>
+              </div>
+            </article>
+          );
+        })}
+      </div>
     </section>
   );
 };

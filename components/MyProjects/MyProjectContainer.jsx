@@ -1,59 +1,31 @@
+import React, { useState } from 'react';
 import Image from 'next/image';
-import { useState } from 'react';
-import styles from './MyProjectContainer.module.scss';
 import MyProjectModal from './MyProjectModal';
-import Overlay from '../zOldSite/Overlay';
 
-export default function ProjectContainer({
-  project: { title, image, description, link, github, type, lessons },
-}) {
-  const [modal, setModal] = useState(false);
-
-  function toggleModal() {
-    !modal ? setModal(true) : setModal(false);
-  }
+export default function MyProjectContainer({ project }) {
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
-      <div key={title} className={styles.myProjects__projectContainer}>
-        <div className={styles.myProjects__projectContainerProject}>
-          <div
-            style={{
-              position: 'relative',
-              width: '100%',
-              aspectRatio: '16/9',
-            }}>
-            <Image
-              className={styles.productImage}
-              src={image}
-              alt={title}
-              fill
-              loading='lazy'
-              style={{ objectFit: 'cover' }}
-              sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
-            />
-          </div>
-          <div className={styles.projectText}>
-            <h5>{title}</h5>
-            <button onClick={toggleModal}>More Info</button>
-          </div>
+      <div
+        className='w-full h-[250px] relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.025]'
+        onClick={() => setShowModal(true)}>
+        <div className='absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300' />
+        <Image
+          src={project.image}
+          alt={project.title}
+          fill
+          className='object-cover'
+          sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+        />
+        <div className='absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transform translate-y-0 group-hover:translate-y-[-140px] transition-all duration-300 z-10'>
+          <h5 className='text-xl text-white font-bold mb-2'>{project.title}</h5>
+          <span className='text-white text-sm'>{project.type}</span>
         </div>
       </div>
-      {modal ? (
-        <>
-          <MyProjectModal
-            toggleModal={toggleModal}
-            title={title}
-            image={image}
-            description={description}
-            type={type}
-            link={link}
-            github={github}
-            lessons={lessons}
-          />
-          <Overlay toggleModal={toggleModal} modal={modal} />
-        </>
-      ) : null}
+      {showModal && (
+        <MyProjectModal project={project} onClose={() => setShowModal(false)} />
+      )}
     </>
   );
 }

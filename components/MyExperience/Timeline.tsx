@@ -18,31 +18,38 @@ interface TimelineProps {
 export const MyTimeline: React.FC<TimelineProps> = (props) => {
   const { handleShow, company } = props;
   const { avb, nsi } = company;
+
   return (
-    <Timeline>
+    <Timeline className='py-0'>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
+          <TimelineDot className='bg-blue-500' />
+          <TimelineConnector className='bg-blue-200' />
         </TimelineSeparator>
         <TimelineContent
           onClick={(e) => handleShow(e)}
-          className={classNames('hover:cursor-pointer', {
-            [avb]: 'font-bold',
-          })}>
-          2022 - Present
+          className={classNames(
+            'cursor-pointer transition-all duration-300 hover:text-blue-600',
+            {
+              [avb]: 'font-bold text-blue-600',
+            }
+          )}>
+          <div className='text-lg'>2022 - Present</div>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot className='bg-blue-500' />
         </TimelineSeparator>
         <TimelineContent
           onClick={(e) => handleShow(e)}
-          className={classNames('hover:cursor-pointer', {
-            [nsi]: 'font-bold',
-          })}>
-          2021 - 2022
+          className={classNames(
+            'cursor-pointer transition-all duration-300 hover:text-blue-600',
+            {
+              [nsi]: 'font-bold text-blue-600',
+            }
+          )}>
+          <div className='text-lg'>2021 - 2022</div>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
