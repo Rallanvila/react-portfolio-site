@@ -14,13 +14,21 @@ const MyExperience: React.FC = () => {
 
         return (
           <article key={jobName} className='my-4 first-of-type:sm:mb-12'>
-            <Image
-              src={image}
-              width={247}
-              height={52}
-              alt={alt}
-              style={{ objectFit: 'contain' }}
-            />
+            <div
+              style={{
+                position: 'relative',
+                width: '247px',
+                height: '52px',
+                maxWidth: '100%',
+              }}>
+              <Image
+                src={image}
+                alt={alt}
+                fill
+                style={{ objectFit: 'contain' }}
+                sizes='(max-width: 640px) 100vw, 247px'
+              />
+            </div>
             <h2 className='mb-2'>{time}</h2>
             <div className='max-w-6xl flex flex-col md:flex-row'>
               {/* What we do */}

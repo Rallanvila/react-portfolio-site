@@ -1,19 +1,21 @@
-import React, { useContext } from "react";
-import { ModalOverlayContext } from "../../context/ModalContext";
-import styles from "./Overlay.module.scss";
+import { ModalOverlayContext } from '../../context/ModalContext.tsx';
+import React, { useContext } from 'react';
+import styles from './Overlay.module.scss';
 
-export default function Overlay({ toggleModal, modal }) {
-	const [modalOverlay, setModalOverlay] = useContext(ModalOverlayContext);
+const Overlay = ({ toggleModal, modal }) => {
+  const [modalOverlay, setModalOverlay] = useContext(ModalOverlayContext);
 
-	function toggleModalOverlay() {
-		!modalOverlay ? setModalOverlay(true) : setModalOverlay(false);
-	}
+  const toggleModalOverlay = () => {
+    setModalOverlay(!modalOverlay);
+  };
 
-	return (
-		<>
-			{modal ? (
-				<div className={styles.overlay} onClick={toggleModal}></div>
-			) : null}
-		</>
-	);
-}
+  return (
+    <>
+      {modal && (
+        <div className={styles.overlay} onClick={toggleModalOverlay}></div>
+      )}
+    </>
+  );
+};
+
+export default Overlay;

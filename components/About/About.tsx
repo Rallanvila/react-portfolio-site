@@ -29,13 +29,22 @@ const About: React.FC = () => {
         </article>
         <div
           data-aos='fade-in'
-          className=' sm:flex sm:items-center sm:mx-auto sm:mb-8 md:mr-0 md:ml-8'>
-          <Image
-            src={AboutPic}
-            width={408}
-            height={303}
-            alt='guy sitting in mountain'
-          />
+          className='sm:flex sm:items-center sm:mx-auto sm:mb-8 md:mr-0 md:ml-8'>
+          <div
+            style={{
+              position: 'relative',
+              width: '408px',
+              height: '303px',
+              maxWidth: '100%',
+            }}>
+            <Image
+              src={AboutPic}
+              alt='guy sitting in mountain'
+              fill
+              style={{ objectFit: 'contain' }}
+              sizes='(max-width: 640px) 100vw, 408px'
+            />
+          </div>
         </div>
       </div>
     </section>
