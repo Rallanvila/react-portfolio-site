@@ -17,12 +17,22 @@ export default function ProjectContainer({
     <>
       <div key={title} className={styles.myProjects__projectContainer}>
         <div className={styles.myProjects__projectContainerProject}>
-          <Image
-            className={styles.productImage}
-            src={image}
-            alt={title}
-            layout='fill'
-          />
+          <div
+            style={{
+              position: 'relative',
+              width: '100%',
+              aspectRatio: '16/9',
+            }}>
+            <Image
+              className={styles.productImage}
+              src={image}
+              alt={title}
+              fill
+              loading='lazy'
+              style={{ objectFit: 'cover' }}
+              sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+            />
+          </div>
           <div className={styles.projectText}>
             <h5>{title}</h5>
             <button onClick={toggleModal}>More Info</button>

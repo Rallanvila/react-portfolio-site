@@ -1,11 +1,14 @@
-const path = require("path");
+const path = require('path');
 
-module.exports = {
-	reactStrictMode: true,
-	images: {
-		domains: ["mybayside.church"],
-	},
-	sassOptions: {
-		includePaths: [path.join(__dirname, "styles")],
-	},
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ['mybayside.church'],
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
 };
+
+module.exports = nextConfig;

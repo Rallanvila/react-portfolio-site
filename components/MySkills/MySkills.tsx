@@ -22,13 +22,21 @@ import vscode from '../../public/img/vscode.png';
 import git from '../../public/img/git.png';
 import redux from '../../public/img/redux.png';
 
-export default function MySkills() {
-  let essentials = [javascript, html, css];
-  let frontEndFrameworks = [react, nextjs];
-  let styling = [tailwind, sass, styledcomp, material, bootstrap, figma]; //Todo: Add typescript
-  let backend = [node, postman, mongodb];
-  let testing = [jest, cypress];
-  let utility = [redux, vscode, git, github];
+const MySkills: React.FC = () => {
+  const essentials: string[] = [javascript, html, css];
+  const frontEndFrameworks: string[] = [react, nextjs];
+  const styling: string[] = [
+    tailwind,
+    sass,
+    styledcomp,
+    material,
+    bootstrap,
+    figma,
+  ]; //Todo: Add typescript
+  const backend: string[] = [node, postman, mongodb];
+  const testing: string[] = [jest, cypress];
+  const utility: string[] = [redux, vscode, git, github];
+
   return (
     <section
       className='max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2'
@@ -44,4 +52,6 @@ export default function MySkills() {
       <Technologies array={utility} heading='The Utilities' />
     </section>
   );
-}
+};
+
+export default MySkills;

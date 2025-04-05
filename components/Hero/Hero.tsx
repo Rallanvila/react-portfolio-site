@@ -1,14 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import ProfilePic2 from '../../public/img/ProfilePic2.png';
 import Me from '../../public/img/Me.png';
 import LinkedIn from '../../public/img/LinkedIn.png';
 import Twitter from '../../public/img/Twitter.png';
 import Github from '../../public/img/Github.png';
-import { FaGithub, FaTwitterSquare, FaLinkedin } from 'react-icons/fa';
 
-export default function Hero() {
+const Hero: React.FC = () => {
   return (
     <header className='container px-8 my-8 mx-auto max-w-6xl flex flex-col-reverse sm:flex-row  sm:justify-between md:justify-evenly md:px-8'>
       <div data-aos='fade-right'>
@@ -21,32 +19,42 @@ export default function Hero() {
           <div className='flex items-center'>
             <Link
               href='https://www.linkedin.com/in/allan-vila-91922b129/'
-              passHref
-              rel=' noreferrer'>
-              <a className='mx-2' target='_blank'>
-                <Image src={LinkedIn} alt='linkedin' width={35} height={35} />
-              </a>
+              target='_blank'
+              rel='noreferrer'
+              className='mx-2'>
+              <Image
+                src={LinkedIn}
+                alt='linkedin'
+                width={35}
+                height={35}
+                priority={false}
+              />
             </Link>
             <Link
               href='https://twitter.com/RAllanVila'
-              passHref
-              rel=' noreferrer'>
-              <a className='mx-2' target='_blank'>
-                <Image src={Twitter} alt='twitter' width={35} height={35} />
-              </a>
+              target='_blank'
+              rel='noreferrer'
+              className='mx-2'>
+              <Image
+                src={Twitter}
+                alt='twitter'
+                width={35}
+                height={35}
+                priority={false}
+              />
             </Link>
             <Link
               href='https://github.com/Rallanvila'
-              passHref
-              rel=' noreferrer'>
-              <a className='mx-2' target='_blank'>
-                <Image
-                  src={Github}
-                  alt='https://github.com/Rallanvila'
-                  width={35}
-                  height={35}
-                />
-              </a>
+              target='_blank'
+              rel='noreferrer'
+              className='mx-2'>
+              <Image
+                src={Github}
+                alt='https://github.com/Rallanvila'
+                width={35}
+                height={35}
+                priority={false}
+              />
             </Link>
           </div>
         </div>
@@ -54,8 +62,16 @@ export default function Hero() {
       <div
         className='max-w-xs mx-auto sm:mx-0 sm:max-w-xl'
         data-aos='fade-left'>
-        <Image src={Me} alt='Allan Vila Photo' width={478} height={541} />
+        <Image
+          src={Me}
+          alt='Allan Vila Photo'
+          width={478}
+          height={541}
+          priority={true}
+        />
       </div>
     </header>
   );
-}
+};
+
+export default Hero;

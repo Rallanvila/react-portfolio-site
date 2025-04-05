@@ -1,36 +1,40 @@
 {
-	"name": "r.allanvila.com",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@emotion/react": "^11.11.0",
-		"@emotion/styled": "^11.11.0",
-		"@mui/lab": "^5.0.0-alpha.130",
-		"@mui/material": "^5.13.1",
-		"aos": "^3.0.0-beta.6",
-		"classnames": "^2.3.2",
-		"framer-motion": "^5.6.0",
-		"hamburger-react": "^2.5.0",
-		"next": "12.0.7",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"react-driftjs": "^1.2.2",
-		"react-icons": "^4.3.1",
-		"react-scroll-up-button": "^1.6.4",
-		"sass": "^1.45.0",
-		"styled-components": "^6.1.11"
-	},
-	"devDependencies": {
-		"@netlify/plugin-nextjs": "^4.2.1",
-		"autoprefixer": "^10.4.7",
-		"eslint": "7.32.0",
-		"eslint-config-next": "12.0.7",
-		"postcss": "^8.4.13",
-		"tailwindcss": "^3.0.24"
-	}
+  "name": "r.allanvila.com",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.10",
+    "aos": "^2.3.4",
+    "classnames": "^2.5.1",
+    "framer-motion": "^11.0.5",
+    "hamburger-react": "^2.5.0",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-driftjs": "^1.2.2",
+    "react-icons": "^5.0.1",
+    "react-scroll-up-button": "^1.6.4",
+    "sass": "^1.71.0",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.41.3",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
 }
