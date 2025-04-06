@@ -1,4 +1,4 @@
-import * as React from 'react';
+import { type FC, type MouseEvent } from 'react';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -8,14 +8,14 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import classNames from 'classnames';
 
 interface TimelineProps {
-  handleShow: (e: React.MouseEvent) => void;
+  handleShow: (e: MouseEvent) => void;
   company: {
     avb: string;
     nsi: string;
   };
 }
 
-export const MyTimeline: React.FC<TimelineProps> = (props) => {
+export const MyTimeline: FC<TimelineProps> = (props) => {
   const { handleShow, company } = props;
   const { avb, nsi } = company;
 

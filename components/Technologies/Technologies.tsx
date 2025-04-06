@@ -1,4 +1,4 @@
-import React from 'react';
+import { type FC } from 'react';
 import Image from 'next/image';
 
 interface TechnologiesProps {
@@ -6,7 +6,7 @@ interface TechnologiesProps {
   heading: string;
 }
 
-const Technologies: React.FC<TechnologiesProps> = ({ array, heading }) => {
+const Technologies: FC<TechnologiesProps> = ({ array, heading }) => {
   return (
     <div className='mb-8'>
       <h3 className='font-semibold text-xl mb-4'>{heading}</h3>

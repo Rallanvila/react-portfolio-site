@@ -1,8 +1,8 @@
-import React from 'react';
+import { type FC } from 'react';
 import Image from 'next/image';
-import AboutPic from '../../public/img/about-pic.svg';
+import AboutPic from '@/public/img/about-pic.svg';
 
-const About: React.FC = () => {
+const About: FC = () => {
   return (
     <section className='diagonal-box bg-gradient-to-br from-blue-50 to-white py-16'>
       <div className='content px-8 mx-auto flex flex-col-reverse justify-between max-w-6xl md:flex-row md:items-center'>
@@ -40,8 +40,9 @@ const About: React.FC = () => {
               src={AboutPic}
               alt='guy sitting in mountain'
               fill
-              className='object-contain'
+              priority
               sizes='(max-width: 640px) 100vw, 408px'
+              className='object-contain'
             />
           </div>
         </div>

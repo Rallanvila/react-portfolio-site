@@ -1,9 +1,12 @@
-import { createContext, useState, ReactNode } from 'react';
+import {
+  type Dispatch,
+  type SetStateAction,
+  type ReactNode,
+  createContext,
+  useState,
+} from 'react';
 
-type ModalContextType = [
-  boolean,
-  React.Dispatch<React.SetStateAction<boolean>>
-];
+type ModalContextType = [boolean, Dispatch<SetStateAction<boolean>>];
 
 // create a context, with createContext api
 export const ModalOverlayContext = createContext<ModalContextType>([

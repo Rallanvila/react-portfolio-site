@@ -1,8 +1,8 @@
-import React from 'react';
+import { type FC } from 'react';
 import Image from 'next/image';
-import experience, { Job } from '../../data/jobs';
+import experience, { Job } from '@/data/jobs';
 
-const MyExperience: React.FC = () => {
+const MyExperience: FC = () => {
   return (
     <section
       id='experience'
@@ -28,7 +28,9 @@ const MyExperience: React.FC = () => {
                     sizes='(max-width: 640px) 100vw, 247px'
                   />
                 </div>
-                <h2 className='text-lg font-semibold text-blue-600'>{time}</h2>
+                <span className='text-lg font-semibold text-blue-600'>
+                  {time}
+                </span>
               </div>
 
               <div className='grid md:grid-cols-3 gap-8'>

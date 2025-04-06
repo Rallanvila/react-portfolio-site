@@ -1,42 +1,52 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaBlog, FaBriefcase, FaCode, FaFileAlt } from 'react-icons/fa';
+import { usePathname } from 'next/navigation';
+import { Book, Briefcase, Code, FileText } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
-export default function Links() {
+const Links = () => {
+  const pathname = usePathname();
+
+  const links = [
+    {
+      href: '/blog',
+      label: 'Blog',
+      icon: Book,
+    },
+    {
+      href: '/experience',
+      label: 'Experience',
+      icon: Briefcase,
+    },
+    {
+      href: '/projects',
+      label: 'Projects',
+      icon: Code,
+    },
+    {
+      href: '/resume',
+      label: 'Resume',
+      icon: FileText,
+    },
+  ];
+
   return (
-    <ul className='flex items-center space-x-4'>
-      <li>
+    <div className='flex items-center gap-6'>
+      {links.map(({ href, label, icon: Icon }) => (
         <Link
-          href='/blog'
-          className='text-gray-800 hover:text-blue-500 transition-colors'>
-          <FaBlog className='inline-block mr-1' />
-          Blog
+          key={href}
+          href={href}
+          className={cn(
+            'flex items-center gap-2.5 px-3 py-2 text-base font-medium transition-colors',
+            'hover:text-blue-600',
+            pathname === href ? 'text-blue-600' : 'text-gray-600'
+          )}>
+          <Icon className='h-5 w-5' />
+          <span>{label}</span>
         </Link>
-      </li>
-      <li>
-        <Link
-          href='/experience'
-          className='text-gray-800 hover:text-blue-500 transition-colors'>
-          <FaBriefcase className='inline-block mr-1' />
-          Experience
-        </Link>
-      </li>
-      <li>
-        <Link
-          href='/projects'
-          className='text-gray-800 hover:text-blue-500 transition-colors'>
-          <FaCode className='inline-block mr-1' />
-          Projects
-        </Link>
-      </li>
-      <li className='hidden md:block'>
-        <Link
-          href='/resume.pdf'
-          className='inline-flex items-center px-4 py-2 border border-blue-500 text-blue-500 rounded-md hover:bg-blue-500 hover:text-white transition-colors'>
-          <FaFileAlt className='mr-2' />
-          Resume
-        </Link>
-      </li>
-    </ul>
+      ))}
+    </div>
   );
-}
+};
+
+export default Links;

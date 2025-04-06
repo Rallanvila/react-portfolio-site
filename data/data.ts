@@ -78,24 +78,24 @@ const data: Project[] = [
     ],
     portfolioVersion: ['v1', 'v2'],
   },
-  {
-    title: 'My Original Portfolio',
-    image: '/img/site_img.png',
-    type: 'react',
-    link: '/original-portfolio',
-    github: 'https://github.com/Rallanvila/react-portfolio-site',
-    description:
-      'As a self-taught developer, I managed to get hired within seven months of learning how to code. Within five months, I was able to build this site from scratch, completely custom in React, while building seventeen custom projects as well. This is the original portfolio that got me hired in seven months that I created while learning to code from my first console.log() on Nov 20th, 2020, and getting hired on June 1st, 2021. I made it with React using Next.js.',
-    lessons: [
-      'Figma',
-      'Context Api',
-      'React-Icons',
-      'Font-Awesome',
-      'React with Next.js',
-      'Absolute and Relative Positioning',
-    ],
-    portfolioVersion: ['v2', 'depricated'],
-  },
+  // {
+  //   title: 'My Original Portfolio',
+  //   image: '/img/site_img.png',
+  //   type: 'react',
+  //   link: '/original-portfolio',
+  //   github: 'https://github.com/Rallanvila/react-portfolio-site',
+  //   description:
+  //     'As a self-taught developer, I managed to get hired within seven months of learning how to code. Within five months, I was able to build this site from scratch, completely custom in React, while building seventeen custom projects as well. This is the original portfolio that got me hired in seven months that I created while learning to code from my first console.log() on Nov 20th, 2020, and getting hired on June 1st, 2021. I made it with React using Next.js.',
+  //   lessons: [
+  //     'Figma',
+  //     'Context Api',
+  //     'React-Icons',
+  //     'Font-Awesome',
+  //     'React with Next.js',
+  //     'Absolute and Relative Positioning',
+  //   ],
+  //   portfolioVersion: ['v2', 'depricated'],
+  // },
 ];
 
 export default data;

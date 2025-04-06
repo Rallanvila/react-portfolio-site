@@ -1,7 +1,7 @@
+import { type FC } from 'react';
 import Head from 'next/head';
-import React from 'react';
 
-const HeadTag: React.FC = () => {
+const HeadTag: FC = () => {
   return (
     <Head>
       <title>Allan Vila | Software Engineer</title>

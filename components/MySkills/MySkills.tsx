@@ -1,38 +1,37 @@
-import React from 'react';
-import Image from 'next/image';
-import Technologies from '../Technologies/Technologies';
-import javascript from '../../public/img/javascript.png';
-import html from '../../public/img/html.png';
-import css from '../../public/img/css.png';
-import tailwind from '../../public/img/tailwind.png';
-import sass from '../../public/img/sass.png';
-import styledcomp from '../../public/img/styledcomp.png';
-import bootstrap from '../../public/img/bootstrap.png';
-import material from '../../public/img/material.png';
-import figma from '../../public/img/figma.png';
-import react from '../../public/img/react.png';
-import nextjs from '../../public/img/nextjs.png';
-import node from '../../public/img/node.png';
-import postman from '../../public/img/postman.png';
-import mongodb from '../../public/img/mongodb.png';
-import github from '../../public/img/github2.png';
-import jest from '../../public/img/jest.png';
-import cypress from '../../public/img/cypress.png';
-import vscode from '../../public/img/vscode.png';
-import git from '../../public/img/git.png';
-import redux from '../../public/img/redux.png';
+import { type FC } from 'react';
+import Technologies from '@/components/Technologies/Technologies';
+import javascript from '@/public/img/javascript.png';
+import html from '@/public/img/html.png';
+import css from '@/public/img/css.png';
+import tailwind from '@/public/img/tailwind.png';
+import sass from '@/public/img/sass.png';
+import styledComp from '@/public/img/styledcomp.png';
+import bootstrap from '@/public/img/bootstrap.png';
+import material from '@/public/img/material.png';
+import figma from '@/public/img/figma.png';
+import react from '@/public/img/react.png';
+import nextjs from '@/public/img/nextjs.png';
+import node from '@/public/img/node.png';
+import postman from '@/public/img/postman.png';
+import mongodb from '@/public/img/mongodb.png';
+import github from '@/public/img/github2.png';
+import jest from '@/public/img/jest.png';
+import cypress from '@/public/img/cypress.png';
+import vscode from '@/public/img/vscode.png';
+import git from '@/public/img/git.png';
+import redux from '@/public/img/redux.png';
 
-const MySkills: React.FC = () => {
+const MySkills: FC = () => {
   const essentials: string[] = [javascript, html, css];
   const frontEndFrameworks: string[] = [react, nextjs];
   const styling: string[] = [
     tailwind,
     sass,
-    styledcomp,
+    styledComp,
     material,
     bootstrap,
     figma,
-  ]; //Todo: Add typescript
+  ];
   const backend: string[] = [node, postman, mongodb];
   const testing: string[] = [jest, cypress];
   const utility: string[] = [redux, vscode, git, github];

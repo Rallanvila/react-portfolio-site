@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import { type FC } from 'react';
 import Me from '@/public/img/Me.png';
 import LinkedIn from '@/public/img/LinkedIn.png';
 import Twitter from '@/public/img/Twitter.png';
 import Github from '@/public/img/Github.png';
 
-const Hero: React.FC = () => {
+const Hero: FC = () => {
   return (
-    <header className='container mx-auto max-w-6xl px-8 my-12 flex flex-col-reverse sm:flex-row sm:justify-between md:justify-evenly md:px-8'>
-      <div data-aos='fade-right' className='sm:max-w-xl'>
+    <header className='container mx-auto max-w-6xl px-8 my-12 flex flex-col-reverse sm:flex-row sm:justify-between md:justify-between md:px-8'>
+      <div data-aos='fade-right' className='sm:max-w-md'>
         <h1 className='text-4xl sm:text-5xl font-bold mb-6 relative text-gray-800'>
           Hey there, Allan Vila here at your service!{' '}
           <span className='inline-block animate-bounce'>👋🏼</span>
