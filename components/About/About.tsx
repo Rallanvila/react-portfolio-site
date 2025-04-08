@@ -6,9 +6,7 @@ const About: FC = () => {
   return (
     <section className='diagonal-box bg-gradient-to-br from-blue-50 to-white py-16'>
       <div className='content px-8 mx-auto flex flex-col-reverse justify-between max-w-6xl md:flex-row md:items-center'>
-        <article
-          data-aos='fade-in'
-          className='bg-white rounded-lg shadow-md p-6 md:p-8 transition-shadow duration-300 hover:shadow-lg'>
+        <article className='bg-white rounded-lg shadow-md p-6 md:p-8 transition-shadow duration-300 hover:shadow-lg'>
           <h2 className='text-2xl font-bold mb-4 text-gray-800'>About Me:</h2>
           <div className='space-y-4 text-gray-700'>
             <p>
@@ -32,9 +30,7 @@ const About: FC = () => {
             </p>
           </div>
         </article>
-        <div
-          data-aos='fade-in'
-          className='sm:flex sm:items-center sm:mx-auto sm:mb-8 md:mr-0 md:ml-8 md:mb-0'>
+        <div className='sm:flex sm:items-center sm:mx-auto sm:mb-8 md:mr-0 md:ml-8 md:mb-0'>
           <div className='relative w-[408px] h-[303px] max-w-full transition-transform duration-300 hover:scale-105'>
             <Image
               src={AboutPic}

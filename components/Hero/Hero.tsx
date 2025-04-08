@@ -9,7 +9,7 @@ import Github from '@/public/img/Github.png';
 const Hero: FC = () => {
   return (
     <header className='container mx-auto max-w-6xl px-8 my-12 flex flex-col-reverse sm:flex-row sm:justify-between md:justify-between md:px-8'>
-      <div data-aos='fade-right' className='sm:max-w-md'>
+      <div className='sm:max-w-md'>
         <h1 className='text-4xl sm:text-5xl font-bold mb-6 relative text-gray-800'>
           Hey there, Allan Vila here at your service!{' '}
           <span className='inline-block animate-bounce'>👋🏼</span>
@@ -75,9 +75,7 @@ const Hero: FC = () => {
           applications.
         </p>
       </div>
-      <div
-        className='max-w-xs mx-auto sm:mx-0 sm:max-w-xl mb-8 sm:mb-0'
-        data-aos='fade-left'>
+      <div className='max-w-xs mx-auto sm:mx-0 sm:max-w-xl mb-8 sm:mb-0'>
         <div className='relative w-[478px] h-[541px] max-w-full transition-transform duration-500 hover:scale-105'>
           <Image
             src={Me}

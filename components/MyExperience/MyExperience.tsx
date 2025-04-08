@@ -4,10 +4,7 @@ import experience, { Job } from '@/data/jobs';
 
 const MyExperience: FC = () => {
   return (
-    <section
-      id='experience'
-      data-aos='fade-in'
-      className='max-w-6xl mx-auto mb-12 px-8'>
+    <section id='experience' className='max-w-6xl mx-auto mb-16 px-8'>
       <h2 className='text-2xl font-bold mb-8 text-gray-800'>My Experience:</h2>
       <div className='space-y-12'>
         {experience.map((job: Job) => {

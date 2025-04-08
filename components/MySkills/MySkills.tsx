@@ -92,9 +92,7 @@ const MySkills: FC = () => {
   ];
 
   return (
-    <section
-      className='max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2'
-      data-aos='fade-up'>
+    <section className='max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2'>
       {sections.map((section, index) => (
         <div key={index} className='mb-8'>
           <h3 className='text-xl font-bold mb-4'>{section.title}</h3>
