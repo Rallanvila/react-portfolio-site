@@ -1,54 +1,125 @@
 import { type FC } from 'react';
-import Technologies from '@/components/Technologies/Technologies';
-import javascript from '@/public/img/javascript.png';
-import html from '@/public/img/html.png';
-import css from '@/public/img/css.png';
-import tailwind from '@/public/img/tailwind.png';
-import sass from '@/public/img/sass.png';
-import styledComp from '@/public/img/styledcomp.png';
-import bootstrap from '@/public/img/bootstrap.png';
-import material from '@/public/img/material.png';
-import figma from '@/public/img/figma.png';
-import react from '@/public/img/react.png';
-import nextjs from '@/public/img/nextjs.png';
-import node from '@/public/img/node.png';
-import postman from '@/public/img/postman.png';
-import mongodb from '@/public/img/mongodb.png';
-import github from '@/public/img/github2.png';
-import jest from '@/public/img/jest.png';
-import cypress from '@/public/img/cypress.png';
-import vscode from '@/public/img/vscode.png';
-import git from '@/public/img/git.png';
-import redux from '@/public/img/redux.png';
+import {
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiTailwindcss,
+  SiSass,
+  SiStyledcomponents,
+  SiMui,
+  SiBootstrap,
+  SiNeovim,
+  SiReact,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPostman,
+  SiMongodb,
+  SiGithub,
+  SiClaude,
+  SiGit,
+  SiRedux,
+  SiOpenai,
+} from 'react-icons/si';
+import { BiLogoFigma, BiLogoVisualStudio } from 'react-icons/bi';
+import { FaAws } from 'react-icons/fa';
 
 const MySkills: FC = () => {
-  const essentials: string[] = [javascript, html, css];
-  const frontEndFrameworks: string[] = [react, nextjs];
-  const styling: string[] = [
-    tailwind,
-    sass,
-    styledComp,
-    material,
-    bootstrap,
-    figma,
+  const essentials = [
+    { icon: SiJavascript, color: '#F7DF1E', name: 'JavaScript' },
+    { icon: SiHtml5, color: '#E34F26', name: 'HTML5' },
+    { icon: SiCss3, color: '#1572B6', name: 'CSS3' },
   ];
-  const backend: string[] = [node, postman, mongodb];
-  const testing: string[] = [jest, cypress];
-  const utility: string[] = [redux, vscode, git, github];
+
+  const frontEndFrameworks = [
+    { icon: SiReact, color: '#61DAFB', name: 'React' },
+    { icon: SiNextdotjs, color: '#000000', name: 'Next.js' },
+  ];
+
+  const styling = [
+    { icon: SiTailwindcss, color: '#06B6D4', name: 'Tailwind CSS' },
+    { icon: SiSass, color: '#CC6699', name: 'Sass' },
+    { icon: SiStyledcomponents, color: '#DB7093', name: 'Styled Components' },
+    { icon: SiMui, color: '#007FFF', name: 'Material UI' },
+    { icon: SiBootstrap, color: '#7952B3', name: 'Bootstrap' },
+    { icon: BiLogoFigma, color: '#F24E1E', name: 'Figma' },
+  ];
+
+  const backend = [
+    { icon: SiNodedotjs, color: '#339933', name: 'Node.js' },
+    { icon: SiPostman, color: '#FF6C37', name: 'Postman' },
+    { icon: SiMongodb, color: '#47A248', name: 'MongoDB' },
+  ];
+
+  const aiServices = [
+    { icon: FaAws, color: '#FF9900', name: 'Amazon Web Services' },
+    { icon: SiOpenai, color: '#412991', name: 'OpenAI' },
+    { icon: SiClaude, color: '#D97B5B', name: 'Claude' },
+  ];
+
+  const utility = [
+    { icon: SiNeovim, color: '#629B42', name: 'Neovim' },
+    { icon: SiRedux, color: '#764ABC', name: 'Redux' },
+    { icon: BiLogoVisualStudio, color: '#007ACC', name: 'Visual Studio Code' },
+    { icon: SiGit, color: '#F05032', name: 'Git' },
+    { icon: SiGithub, color: '#181717', name: 'GitHub' },
+  ];
+
+  const sections = [
+    {
+      title: 'Essentials',
+      items: essentials,
+    },
+    {
+      title: 'Styling',
+      items: styling,
+    },
+    {
+      title: 'Front-End Frameworks',
+      items: frontEndFrameworks,
+    },
+    {
+      title: 'Backend',
+      items: backend,
+    },
+    {
+      title: 'AI Services',
+      items: aiServices,
+    },
+    {
+      title: 'Utilities',
+      items: utility,
+    },
+  ];
 
   return (
     <section
       className='max-w-6xl mx-auto mb-8 px-8 md:grid md:grid-cols-1/3and2/3 lg:grid-cols-2'
       data-aos='fade-up'>
-      <Technologies array={essentials} heading='The Essentials' />
-      <Technologies array={styling} heading='The Styling' />
-      <Technologies
-        array={frontEndFrameworks}
-        heading='The Front-End Frameworks'
-      />
-      <Technologies array={backend} heading='The Backend' />
-      <Technologies array={testing} heading='The Testing' />
-      <Technologies array={utility} heading='The Utilities' />
+      {sections.map((section, index) => (
+        <div key={index} className='mb-8'>
+          <h3 className='text-xl font-bold mb-4'>{section.title}</h3>
+          <div className='flex gap-6'>
+            {section.items.map((item, index) => {
+              const { icon, color, name } = item;
+              const Icon = icon;
+              return (
+                <div key={index} className='group relative'>
+                  <Icon
+                    className='w-12 h-12 transition-transform hover:scale-110'
+                    style={{ color }}
+                    role='img'
+                    aria-label={name}
+                    title={name}
+                  />
+                  <div className='absolute -bottom-8 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap'>
+                    {name}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </section>
   );
 };
