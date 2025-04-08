@@ -1,6 +1,6 @@
 'use client';
 
-import { GithubIcon, ExternalLink, Calendar } from 'lucide-react';
+import { GithubIcon, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -11,19 +11,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
-import { ProjectTimeline } from './ProjectTimeline';
-
-type Project = {
-  title: string;
-  image: string;
-  type: string;
-  link: string;
-  github: string;
-  description: string;
-  lessons: string[];
-  portfolioVersion: string[];
-  completedDate?: string; // Optional date field
-};
+import { type Project } from '@/data/data';
 
 interface ProjectDetailProps {
   project: Project;
@@ -55,21 +43,6 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
             <Badge variant='outline' className='capitalize'>
               {project.type}
             </Badge>
-            {project.portfolioVersion &&
-              project.portfolioVersion.map((version) => (
-                <Badge key={version} variant='secondary'>
-                  {version}
-                </Badge>
-              ))}
-
-            {project.completedDate && (
-              <Badge
-                variant='outline'
-                className='ml-auto flex items-center gap-1'>
-                <Calendar className='h-3 w-3' />
-                {project.completedDate}
-              </Badge>
-            )}
           </div>
 
           {project.description ? (
@@ -79,9 +52,6 @@ export function ProjectDetail({ project, onClose }: ProjectDetailProps) {
               No description available
             </p>
           )}
-
-          {/* Timeline Component */}
-          {/* <ProjectTimeline project={project} /> */}
 
           {project.lessons && project.lessons.length > 0 && (
             <div>
